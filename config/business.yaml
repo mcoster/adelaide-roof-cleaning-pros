@@ -1,0 +1,91 @@
+# Business Configuration
+# This file contains all business-specific configuration for the website
+# It's safe to commit this file to version control as it contains no sensitive data
+
+# =====================================================
+# BUSINESS INFORMATION
+# =====================================================
+business:
+  name: Adelaide Roof Cleaning Pros
+  logo: /images/Adelaide-Roof-Cleaning-Pros-logo.png
+  tagline: Professional Roof Cleaning Services in Adelaide
+  phone: (08) 7282 0180
+  email: info@adelaideroofcleaning.com.au
+  owner_name: Clifford Corbett
+  broad_region: Greater Adelaide
+  form_location: Regency Park
+
+# =====================================================
+# BUSINESS ADDRESS
+# =====================================================
+address:
+  street: 13/543 Churchill Rd
+  city: Kilburn
+  state: SA
+  postcode: "5084"
+  country: Australia
+
+# =====================================================
+# SERVICE CONFIGURATION
+# =====================================================
+service:
+  main_category: Roof Cleaning
+  main_location: Adelaide
+  radius_km: 33
+  max_location_pages: 500
+  # Optional: Override center location (defaults to business address)
+  # center_lat: -34.8517
+  # center_lng: 138.5829
+
+# =====================================================
+# BRAND COLORS
+# =====================================================
+# Colors should be hex values without the # prefix
+colors:
+  primary: 1E40AF    # Professional blue
+  secondary: "059669"  # Green (eco-friendly)
+  accent: DC2626     # Red accent
+  cta: FF6B35       # Orange CTA buttons
+
+# =====================================================
+# BUSINESS HOURS
+# =====================================================
+hours:
+  monday: 7:00 AM - 6:00 PM
+  tuesday: 7:00 AM - 6:00 PM
+  wednesday: 7:00 AM - 6:00 PM
+  thursday: 7:00 AM - 6:00 PM
+  friday: 7:00 AM - 6:00 PM
+  saturday: 8:00 AM - 4:00 PM
+  sunday: Closed
+
+# =====================================================
+# SOCIAL MEDIA
+# =====================================================
+social:
+  facebook: https://www.facebook.com/AdelaideRoofCleaningPros
+  instagram: ""
+  linkedin: ""
+  youtube: ""
+
+# =====================================================
+# WEBSITE & SEO
+# =====================================================
+website:
+  url: https://www.adelaideroofcleaning.com.au
+  google_maps_url: ""
+  google_reviews_url: ""
+
+# =====================================================
+# GOOGLE MAPS INTEGRATION
+# =====================================================
+google_maps:
+  # Full iframe embed code from Google Maps (enclose in quotes)
+  embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.1792383380375!2d138.58038527659824!3d-34.851723370639675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c83ebbd28f2b%3A0xb6d02a32e52a17ff!2sUnit%2013%2F543%20Churchill%20Rd%2C%20Kilburn%20SA%205084!5e0!3m2!1sen!2sau!4v1756883813791!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+  
+# =====================================================
+# FOOTER CONFIGURATION
+# =====================================================
+footer:
+  # Leave empty for auto-selection of featured suburbs
+  featured_suburbs: []

@@ -1,0 +1,43 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import FloatingCTA from '@/components/FloatingCTA.astro';
+import { renderPageSections, TemplateContext } from '@/lib/page-renderer';
+import { siteConfig } from '@/config/site';
+
+// Load contact page configuration
+const contactData = await getEntry('contact', 'contact');
+const activeSections = contactData.data.sections
+  .filter(section => section.enabled !== false);
+
+// Create context for template processing
+const context = new TemplateContext({
+  phone: siteConfig.phoneDigitsOnly,
+  formattedPhone: siteConfig.formattedPhone,
+  businessName: siteConfig.businessName,
+  email: siteConfig.email,
+  mainLocation: siteConfig.mainLocation,
+});
+
+// Render sections
+const renderedSections = renderPageSections(activeSections, context);
+
+const pageTitle = 'Contact Us';
+const pageDescription = `Get in touch with ${siteConfig.businessName}. Call ${siteConfig.phone} or fill out our contact form for a free quote.`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <Header />
+  
+  <main>
+    <!-- Dynamic Contact Page Sections -->
+    {renderedSections.map(({ Component, props }) => (
+      <Component {...props} />
+    ))}
+  </main>
+  
+  <Footer />
+  <FloatingCTA />
+</Layout>

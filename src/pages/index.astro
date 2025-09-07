@@ -1,0 +1,51 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import FloatingCTA from '@/components/FloatingCTA.astro';
+import { renderPageSections, TemplateContext } from '@/lib/page-renderer';
+import { siteConfig } from '@/config/site';
+
+// Load homepage configuration
+const homepageData = await getEntry('homepage', 'homepage');
+const activeSections = homepageData.data.sections
+  .filter(section => section.enabled !== false);
+
+// Create context for template processing
+const context = new TemplateContext({
+  phone: siteConfig.phone,
+  formattedPhone: siteConfig.formattedPhone,
+  businessName: siteConfig.businessName,
+  email: siteConfig.email,
+  mainLocation: siteConfig.mainLocation,
+});
+
+// Render sections
+const renderedSections = renderPageSections(activeSections, context);
+---
+
+<Layout>
+  <Header />
+  
+  <main>
+    <!-- Dynamic Homepage Sections -->
+    {renderedSections.map(({ Component, props }) => (
+      <Component {...props} />
+    ))}
+  </main>
+  
+  <!-- Floating CTA Button -->
+  <FloatingCTA 
+    showOnScroll={true}
+    position="bottom-right"
+  />
+  
+  <Footer />
+</Layout>
+
+<style>
+  .text-primary {
+    color: var(--color-primary);
+  }
+</style>
