@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=8192"
-  MAX_LOCATION_PAGES = "100"
+  # MAX_LOCATION_PAGES is set via Netlify UI to allow easy changes
   
 # Ensure we're using static suburbs data (no database on Netlify)
   USE_STATIC_SUBURBS = "true"
