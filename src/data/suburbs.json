@@ -1,5 +1,5 @@
 {
-  "generated": "2025-09-07T14:44:27.897Z",
+  "generated": "2025-09-07T22:01:27.153Z",
   "center": {
     "lat": -34.8517,
     "lng": 138.5829
@@ -10,7 +10,7 @@
     {
       "id": 11222,
       "name": "Kilburn",
-      "postcode": null,
+      "postcode": "5084",
       "state": "SA",
       "latitude": -34.8596902,
       "longitude": 138.5855855,
@@ -21,7 +21,7 @@
     {
       "id": 11228,
       "name": "Blair Athol",
-      "postcode": null,
+      "postcode": "5084",
       "state": "SA",
       "latitude": -34.8592373,
       "longitude": 138.5965433,
@@ -32,7 +32,7 @@
     {
       "id": 11219,
       "name": "Regency Park",
-      "postcode": null,
+      "postcode": "5010",
       "state": "SA",
       "latitude": -34.8625388,
       "longitude": 138.5723971,
@@ -43,7 +43,7 @@
     {
       "id": 11220,
       "name": "Angle Park",
-      "postcode": null,
+      "postcode": "5010",
       "state": "SA",
       "latitude": -34.8566301,
       "longitude": 138.5610335,
@@ -54,7 +54,7 @@
     {
       "id": 11226,
       "name": "Gepps Cross",
-      "postcode": null,
+      "postcode": "5094",
       "state": "SA",
       "latitude": -34.8423859,
       "longitude": 138.6044271,
@@ -65,7 +65,7 @@
     {
       "id": 12012,
       "name": "Enfield",
-      "postcode": null,
+      "postcode": "5085",
       "state": "SA",
       "latitude": -34.8606457,
       "longitude": 138.6053811,
@@ -76,7 +76,7 @@
     {
       "id": 11229,
       "name": "Wingfield",
-      "postcode": null,
+      "postcode": "5013",
       "state": "SA",
       "latitude": -34.8410235,
       "longitude": 138.5610418,
@@ -87,7 +87,7 @@
     {
       "id": 11227,
       "name": "Ferryden Park",
-      "postcode": null,
+      "postcode": "5010",
       "state": "SA",
       "latitude": -34.8687799,
       "longitude": 138.561433,
@@ -98,7 +98,7 @@
     {
       "id": 11221,
       "name": "Mansfield Park",
-      "postcode": null,
+      "postcode": "5012",
       "state": "SA",
       "latitude": -34.8565683,
       "longitude": 138.5518395,
@@ -109,7 +109,7 @@
     {
       "id": 11911,
       "name": "Clearview",
-      "postcode": null,
+      "postcode": "5085",
       "state": "SA",
       "latitude": -34.8573872,
       "longitude": 138.6137563,
@@ -120,7 +120,7 @@
     {
       "id": 11821,
       "name": "Dudley Park",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.880068,
       "longitude": 138.5791569,
@@ -131,7 +131,7 @@
     {
       "id": 12002,
       "name": "Cavan",
-      "postcode": null,
+      "postcode": "5094",
       "state": "SA",
       "latitude": -34.825656,
       "longitude": 138.5995084,
@@ -142,7 +142,7 @@
     {
       "id": 11251,
       "name": "Woodville Gardens",
-      "postcode": null,
+      "postcode": "5012",
       "state": "SA",
       "latitude": -34.8674539,
       "longitude": 138.552209,
@@ -153,7 +153,7 @@
     {
       "id": 11180,
       "name": "Croydon Park",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.8802501,
       "longitude": 138.5674908,
@@ -164,7 +164,7 @@
     {
       "id": 11923,
       "name": "Sefton Park",
-      "postcode": null,
+      "postcode": "5083",
       "state": "SA",
       "latitude": -34.8762055,
       "longitude": 138.6065036,
@@ -175,7 +175,7 @@
     {
       "id": 11214,
       "name": "Prospect",
-      "postcode": null,
+      "postcode": "5082",
       "state": "SA",
       "latitude": -34.8827359,
       "longitude": 138.5928622,
@@ -186,7 +186,7 @@
     {
       "id": 11223,
       "name": "Athol Park",
-      "postcode": null,
+      "postcode": "5012",
       "state": "SA",
       "latitude": -34.8560674,
       "longitude": 138.5428326,
@@ -197,7 +197,7 @@
     {
       "id": 11896,
       "name": "Northfield",
-      "postcode": null,
+      "postcode": "5085",
       "state": "SA",
       "latitude": -34.8483826,
       "longitude": 138.6261293,
@@ -208,7 +208,7 @@
     {
       "id": 11971,
       "name": "Broadview",
-      "postcode": null,
+      "postcode": "5083",
       "state": "SA",
       "latitude": -34.8759436,
       "longitude": 138.6150008,
@@ -219,7 +219,7 @@
     {
       "id": 11882,
       "name": "Devon Park",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.8876339,
       "longitude": 138.5797647,
@@ -230,7 +230,7 @@
     {
       "id": 11181,
       "name": "Kilkenny",
-      "postcode": null,
+      "postcode": "5009",
       "state": "SA",
       "latitude": -34.8791637,
       "longitude": 138.5528886,
@@ -241,7 +241,7 @@
     {
       "id": 11270,
       "name": "Woodville North",
-      "postcode": null,
+      "postcode": "5012",
       "state": "SA",
       "latitude": -34.8660817,
       "longitude": 138.541539,
@@ -252,7 +252,7 @@
     {
       "id": 11975,
       "name": "Nailsworth",
-      "postcode": null,
+      "postcode": "5083",
       "state": "SA",
       "latitude": -34.884366,
       "longitude": 138.6061811,
@@ -263,7 +263,7 @@
     {
       "id": 11987,
       "name": "Lightsview",
-      "postcode": null,
+      "postcode": "5085",
       "state": "SA",
       "latitude": -34.8619547,
       "longitude": 138.6273162,
@@ -274,7 +274,7 @@
     {
       "id": 11084,
       "name": "Dry Creek",
-      "postcode": null,
+      "postcode": "5094",
       "state": "SA",
       "latitude": -34.8148068,
       "longitude": 138.567052,
@@ -285,7 +285,7 @@
     {
       "id": 11163,
       "name": "Renown Park",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.890541,
       "longitude": 138.5772784,
@@ -296,7 +296,7 @@
     {
       "id": 11544,
       "name": "Ottoway",
-      "postcode": null,
+      "postcode": "5013",
       "state": "SA",
       "latitude": -34.8472738,
       "longitude": 138.5357349,
@@ -307,7 +307,7 @@
     {
       "id": 12022,
       "name": "Northgate",
-      "postcode": null,
+      "postcode": "5085",
       "state": "SA",
       "latitude": -34.8525794,
       "longitude": 138.6312148,
@@ -318,7 +318,7 @@
     {
       "id": 11955,
       "name": "Greenacres",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8686048,
       "longitude": 138.6281249,
@@ -329,7 +329,7 @@
     {
       "id": 11953,
       "name": "Manningham",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8771946,
       "longitude": 138.6219464,
@@ -340,7 +340,7 @@
     {
       "id": 11460,
       "name": "Pooraka",
-      "postcode": null,
+      "postcode": "5095",
       "state": "SA",
       "latitude": -34.8257023,
       "longitude": 138.6228595,
@@ -351,7 +351,7 @@
     {
       "id": 11198,
       "name": "West Croydon",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.8890035,
       "longitude": 138.5590316,
@@ -362,7 +362,7 @@
     {
       "id": 11201,
       "name": "Pennington",
-      "postcode": null,
+      "postcode": "5013",
       "state": "SA",
       "latitude": -34.8575565,
       "longitude": 138.5316591,
@@ -373,7 +373,7 @@
     {
       "id": 11217,
       "name": "Collinswood",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.8872868,
       "longitude": 138.6122364,
@@ -384,7 +384,7 @@
     {
       "id": 11211,
       "name": "Woodville Park",
-      "postcode": null,
+      "postcode": "5011",
       "state": "SA",
       "latitude": -34.8824134,
       "longitude": 138.5463783,
@@ -395,7 +395,7 @@
     {
       "id": 11891,
       "name": "St Clair",
-      "postcode": null,
+      "postcode": "5011",
       "state": "SA",
       "latitude": -34.8708846,
       "longitude": 138.535307,
@@ -406,7 +406,7 @@
     {
       "id": 11191,
       "name": "Ridleyton",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.8941688,
       "longitude": 138.5704701,
@@ -417,7 +417,7 @@
     {
       "id": 12032,
       "name": "Hampstead Gardens",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8744869,
       "longitude": 138.6287767,
@@ -428,7 +428,7 @@
     {
       "id": 11213,
       "name": "Medindie Gardens",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.8921667,
       "longitude": 138.6060525,
@@ -439,7 +439,7 @@
     {
       "id": 11635,
       "name": "Woodville",
-      "postcode": null,
+      "postcode": "5011",
       "state": "SA",
       "latitude": -34.8795782,
       "longitude": 138.5389922,
@@ -450,7 +450,7 @@
     {
       "id": 11145,
       "name": "Croydon",
-      "postcode": null,
+      "postcode": "5008",
       "state": "SA",
       "latitude": -34.8951603,
       "longitude": 138.5655691,
@@ -461,7 +461,7 @@
     {
       "id": 11209,
       "name": "Fitzroy",
-      "postcode": null,
+      "postcode": "5082",
       "state": "SA",
       "latitude": -34.8969216,
       "longitude": 138.5913138,
@@ -472,7 +472,7 @@
     {
       "id": 11485,
       "name": "Walkley Heights",
-      "postcode": null,
+      "postcode": "5098",
       "state": "SA",
       "latitude": -34.8400924,
       "longitude": 138.6369976,
@@ -483,7 +483,7 @@
     {
       "id": 11269,
       "name": "Brompton",
-      "postcode": null,
+      "postcode": "5007",
       "state": "SA",
       "latitude": -34.8983219,
       "longitude": 138.5756758,
@@ -494,7 +494,7 @@
     {
       "id": 11204,
       "name": "Ovingham",
-      "postcode": null,
+      "postcode": "5082",
       "state": "SA",
       "latitude": -34.89858,
       "longitude": 138.5852619,
@@ -505,7 +505,7 @@
     {
       "id": 11208,
       "name": "Thorngate",
-      "postcode": null,
+      "postcode": "5082",
       "state": "SA",
       "latitude": -34.8973487,
       "longitude": 138.5968197,
@@ -516,7 +516,7 @@
     {
       "id": 11458,
       "name": "Mawson Lakes",
-      "postcode": null,
+      "postcode": "5095",
       "state": "SA",
       "latitude": -34.8104796,
       "longitude": 138.6111791,
@@ -527,7 +527,7 @@
     {
       "id": 11162,
       "name": "Medindie",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.8973232,
       "longitude": 138.604937,
@@ -538,7 +538,7 @@
     {
       "id": 11218,
       "name": "Walkerville",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.891877,
       "longitude": 138.6178503,
@@ -549,7 +549,7 @@
     {
       "id": 12013,
       "name": "Oakden",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8527761,
       "longitude": 138.6432901,
@@ -560,7 +560,7 @@
     {
       "id": 11958,
       "name": "Vale Park",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.8860553,
       "longitude": 138.6271419,
@@ -571,7 +571,7 @@
     {
       "id": 11883,
       "name": "Gillman",
-      "postcode": null,
+      "postcode": "5013",
       "state": "SA",
       "latitude": -34.8332571,
       "longitude": 138.526264,
@@ -582,7 +582,7 @@
     {
       "id": 11919,
       "name": "Hillcrest",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8625153,
       "longitude": 138.643046,
@@ -593,7 +593,7 @@
     {
       "id": 11140,
       "name": "Rosewater",
-      "postcode": null,
+      "postcode": "5013",
       "state": "SA",
       "latitude": -34.852509,
       "longitude": 138.5213144,
@@ -604,7 +604,7 @@
     {
       "id": 11202,
       "name": "Cheltenham",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8675787,
       "longitude": 138.5242666,
@@ -615,7 +615,7 @@
     {
       "id": 11212,
       "name": "Bowden",
-      "postcode": null,
+      "postcode": "5007",
       "state": "SA",
       "latitude": -34.9028963,
       "longitude": 138.5799792,
@@ -626,7 +626,7 @@
     {
       "id": 11197,
       "name": "Beverley",
-      "postcode": null,
+      "postcode": "5009",
       "state": "SA",
       "latitude": -34.8952647,
       "longitude": 138.5463394,
@@ -637,7 +637,7 @@
     {
       "id": 11171,
       "name": "Woodville South",
-      "postcode": null,
+      "postcode": "5011",
       "state": "SA",
       "latitude": -34.8884973,
       "longitude": 138.5361121,
@@ -648,7 +648,7 @@
     {
       "id": 12005,
       "name": "Klemzig",
-      "postcode": null,
+      "postcode": "5087",
       "state": "SA",
       "latitude": -34.878967,
       "longitude": 138.6386096,
@@ -659,7 +659,7 @@
     {
       "id": 11581,
       "name": "Eastern Passage",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8065175,
       "longitude": 138.5481553,
@@ -670,7 +670,7 @@
     {
       "id": 11224,
       "name": "Gilberton",
-      "postcode": null,
+      "postcode": "5081",
       "state": "SA",
       "latitude": -34.9004592,
       "longitude": 138.6126215,
@@ -681,7 +681,7 @@
     {
       "id": 11081,
       "name": "Allenby Gardens",
-      "postcode": null,
+      "postcode": "5009",
       "state": "SA",
       "latitude": -34.9016148,
       "longitude": 138.5543914,
@@ -692,7 +692,7 @@
     {
       "id": 11133,
       "name": "Alberton",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8590292,
       "longitude": 138.5161266,
@@ -703,7 +703,7 @@
     {
       "id": 11106,
       "name": "West Hindmarsh",
-      "postcode": null,
+      "postcode": "5007",
       "state": "SA",
       "latitude": -34.9050505,
       "longitude": 138.563007,
@@ -714,7 +714,7 @@
     {
       "id": 11105,
       "name": "Welland",
-      "postcode": null,
+      "postcode": "5007",
       "state": "SA",
       "latitude": -34.903885,
       "longitude": 138.5587553,
@@ -725,7 +725,7 @@
     {
       "id": 11088,
       "name": "Hindmarsh",
-      "postcode": null,
+      "postcode": "5007",
       "state": "SA",
       "latitude": -34.9066222,
       "longitude": 138.5699532,
@@ -736,7 +736,7 @@
     {
       "id": 11182,
       "name": "Albert Park",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8762326,
       "longitude": 138.5214767,
@@ -747,7 +747,7 @@
     {
       "id": 11457,
       "name": "Ingle Farm",
-      "postcode": null,
+      "postcode": "5098",
       "state": "SA",
       "latitude": -34.8275823,
       "longitude": 138.6454465,
@@ -758,7 +758,7 @@
     {
       "id": 11172,
       "name": "Woodville West",
-      "postcode": null,
+      "postcode": "5011",
       "state": "SA",
       "latitude": -34.8850593,
       "longitude": 138.5265794,
@@ -769,7 +769,7 @@
     {
       "id": 11291,
       "name": "North Arm",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8130311,
       "longitude": 138.5310582,
@@ -780,7 +780,7 @@
     {
       "id": 11593,
       "name": "North Adelaide",
-      "postcode": null,
+      "postcode": "5006",
       "state": "SA",
       "latitude": -34.9085015,
       "longitude": 138.5953502,
@@ -791,7 +791,7 @@
     {
       "id": 11878,
       "name": "Garden Island",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8075094,
       "longitude": 138.5360795,
@@ -802,7 +802,7 @@
     {
       "id": 11967,
       "name": "Marden",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8925643,
       "longitude": 138.6347392,
@@ -813,7 +813,7 @@
     {
       "id": 11456,
       "name": "Greenfields",
-      "postcode": null,
+      "postcode": "5107",
       "state": "SA",
       "latitude": -34.7949505,
       "longitude": 138.6035145,
@@ -824,7 +824,7 @@
     {
       "id": 11272,
       "name": "Royston Park",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8973212,
       "longitude": 138.6299486,
@@ -835,7 +835,7 @@
     {
       "id": 11271,
       "name": "Joslin",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8996663,
       "longitude": 138.626552,
@@ -846,7 +846,7 @@
     {
       "id": 11135,
       "name": "Hendon",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8744445,
       "longitude": 138.5151719,
@@ -857,7 +857,7 @@
     {
       "id": 11978,
       "name": "Windsor Gardens",
-      "postcode": null,
+      "postcode": "5087",
       "state": "SA",
       "latitude": -34.8655403,
       "longitude": 138.6543408,
@@ -868,7 +868,7 @@
     {
       "id": 12044,
       "name": "Queenstown",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8609515,
       "longitude": 138.5103602,
@@ -879,7 +879,7 @@
     {
       "id": 12159,
       "name": "Green Fields",
-      "postcode": null,
+      "postcode": "5107",
       "state": "SA",
       "latitude": -34.7942355,
       "longitude": 138.6060357,
@@ -890,7 +890,7 @@
     {
       "id": 11097,
       "name": "Port Adelaide",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8342755,
       "longitude": 138.5123548,
@@ -901,7 +901,7 @@
     {
       "id": 11543,
       "name": "St Peters",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9049797,
       "longitude": 138.6226003,
@@ -912,7 +912,7 @@
     {
       "id": 11984,
       "name": "Gilles Plains",
-      "postcode": null,
+      "postcode": "5086",
       "state": "SA",
       "latitude": -34.8500456,
       "longitude": 138.6590628,
@@ -923,7 +923,7 @@
     {
       "id": 11170,
       "name": "Findon",
-      "postcode": null,
+      "postcode": "5023",
       "state": "SA",
       "latitude": -34.899463,
       "longitude": 138.5314438,
@@ -934,7 +934,7 @@
     {
       "id": 11077,
       "name": "Thebarton",
-      "postcode": null,
+      "postcode": "5031",
       "state": "SA",
       "latitude": -34.9151467,
       "longitude": 138.5724921,
@@ -945,7 +945,7 @@
     {
       "id": 11455,
       "name": "Globe Derby Park",
-      "postcode": null,
+      "postcode": "5110",
       "state": "SA",
       "latitude": -34.787776,
       "longitude": 138.5893456,
@@ -956,7 +956,7 @@
     {
       "id": 11292,
       "name": "Angas Inlet",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.801706,
       "longitude": 138.5339163,
@@ -967,7 +967,7 @@
     {
       "id": 12004,
       "name": "Felixstow",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8890189,
       "longitude": 138.6469594,
@@ -978,7 +978,7 @@
     {
       "id": 11134,
       "name": "Royal Park",
-      "postcode": null,
+      "postcode": "5014",
       "state": "SA",
       "latitude": -34.8708208,
       "longitude": 138.5074037,
@@ -989,7 +989,7 @@
     {
       "id": 11442,
       "name": "Valley View",
-      "postcode": null,
+      "postcode": "5093",
       "state": "SA",
       "latitude": -34.8399353,
       "longitude": 138.6607359,
@@ -1000,7 +1000,7 @@
     {
       "id": 11085,
       "name": "Flinders Park",
-      "postcode": null,
+      "postcode": "5025",
       "state": "SA",
       "latitude": -34.9102468,
       "longitude": 138.5432009,
@@ -1011,7 +1011,7 @@
     {
       "id": 11264,
       "name": "College Park",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9115411,
       "longitude": 138.6197277,
@@ -1022,7 +1022,7 @@
     {
       "id": 11583,
       "name": "Gawler Reach",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8419976,
       "longitude": 138.5022253,
@@ -1033,7 +1033,7 @@
     {
       "id": 11937,
       "name": "Payneham",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8989089,
       "longitude": 138.6422239,
@@ -1044,7 +1044,7 @@
     {
       "id": 11993,
       "name": "Hackney",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9138951,
       "longitude": 138.6163849,
@@ -1055,7 +1055,7 @@
     {
       "id": 11875,
       "name": "Parafield",
-      "postcode": null,
+      "postcode": "5106",
       "state": "SA",
       "latitude": -34.796125,
       "longitude": 138.631086,
@@ -1066,7 +1066,7 @@
     {
       "id": 12019,
       "name": "Evandale",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9055202,
       "longitude": 138.6354131,
@@ -1077,7 +1077,7 @@
     {
       "id": 11069,
       "name": "Birkenhead",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.836756,
       "longitude": 138.5002312,
@@ -1088,7 +1088,7 @@
     {
       "id": 11437,
       "name": "Para Vista",
-      "postcode": null,
+      "postcode": "5093",
       "state": "SA",
       "latitude": -34.8283874,
       "longitude": 138.6627709,
@@ -1099,7 +1099,7 @@
     {
       "id": 11465,
       "name": "Para Hills West",
-      "postcode": null,
+      "postcode": "5096",
       "state": "SA",
       "latitude": -34.8034564,
       "longitude": 138.6443173,
@@ -1110,7 +1110,7 @@
     {
       "id": 11582,
       "name": "Old Port Reach",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8484654,
       "longitude": 138.4976225,
@@ -1121,7 +1121,7 @@
     {
       "id": 11061,
       "name": "Torrensville",
-      "postcode": null,
+      "postcode": "5031",
       "state": "SA",
       "latitude": -34.9197846,
       "longitude": 138.5597989,
@@ -1132,7 +1132,7 @@
     {
       "id": 11945,
       "name": "Campbelltown",
-      "postcode": null,
+      "postcode": "5074",
       "state": "SA",
       "latitude": -34.8813676,
       "longitude": 138.6608519,
@@ -1143,7 +1143,7 @@
     {
       "id": 11102,
       "name": "Seaton",
-      "postcode": null,
+      "postcode": "5023",
       "state": "SA",
       "latitude": -34.893357,
       "longitude": 138.5129598,
@@ -1154,7 +1154,7 @@
     {
       "id": 11890,
       "name": "New Port",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8447946,
       "longitude": 138.4968013,
@@ -1165,7 +1165,7 @@
     {
       "id": 11379,
       "name": "Peterhead",
-      "postcode": null,
+      "postcode": "5016",
       "state": "SA",
       "latitude": -34.8312056,
       "longitude": 138.4999257,
@@ -1176,7 +1176,7 @@
     {
       "id": 11901,
       "name": "Stepney",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9122895,
       "longitude": 138.6292554,
@@ -1187,7 +1187,7 @@
     {
       "id": 11470,
       "name": "Para Hills",
-      "postcode": null,
+      "postcode": "5096",
       "state": "SA",
       "latitude": -34.8117394,
       "longitude": 138.6556036,
@@ -1198,7 +1198,7 @@
     {
       "id": 12026,
       "name": "Glynde",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.8960474,
       "longitude": 138.652531,
@@ -1209,7 +1209,7 @@
     {
       "id": 11459,
       "name": "Parafield Gardens",
-      "postcode": null,
+      "postcode": "5107",
       "state": "SA",
       "latitude": -34.7825552,
       "longitude": 138.6107321,
@@ -1220,7 +1220,7 @@
     {
       "id": 11070,
       "name": "Underdale",
-      "postcode": null,
+      "postcode": "5032",
       "state": "SA",
       "latitude": -34.9195393,
       "longitude": 138.5491047,
@@ -1231,7 +1231,7 @@
     {
       "id": 11906,
       "name": "Payneham South",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.9047888,
       "longitude": 138.6444569,
@@ -1242,7 +1242,7 @@
     {
       "id": 12028,
       "name": "Holden Hill",
-      "postcode": null,
+      "postcode": "5088",
       "state": "SA",
       "latitude": -34.8516117,
       "longitude": 138.6722955,
@@ -1253,7 +1253,7 @@
     {
       "id": 11068,
       "name": "West Lakes",
-      "postcode": null,
+      "postcode": "5021",
       "state": "SA",
       "latitude": -34.8759925,
       "longitude": 138.4982893,
@@ -1264,7 +1264,7 @@
     {
       "id": 11964,
       "name": "Maylands",
-      "postcode": null,
+      "postcode": "5069",
       "state": "SA",
       "latitude": -34.9112777,
       "longitude": 138.6367026,
@@ -1275,7 +1275,7 @@
     {
       "id": 11064,
       "name": "Mile End",
-      "postcode": null,
+      "postcode": "5031",
       "state": "SA",
       "latitude": -34.9263377,
       "longitude": 138.5711113,
@@ -1286,7 +1286,7 @@
     {
       "id": 12134,
       "name": "Adelaide",
-      "postcode": null,
+      "postcode": "5000",
       "state": "SA",
       "latitude": -34.9256413,
       "longitude": 138.6007686,
@@ -1297,7 +1297,7 @@
     {
       "id": 11884,
       "name": "Largs North",
-      "postcode": null,
+      "postcode": "5016",
       "state": "SA",
       "latitude": -34.8168309,
       "longitude": 138.5012541,
@@ -1308,7 +1308,7 @@
     {
       "id": 11175,
       "name": "Kidman Park",
-      "postcode": null,
+      "postcode": "5025",
       "state": "SA",
       "latitude": -34.9122329,
       "longitude": 138.5269306,
@@ -1319,7 +1319,7 @@
     {
       "id": 11089,
       "name": "Kent Town",
-      "postcode": null,
+      "postcode": "5067",
       "state": "SA",
       "latitude": -34.9215545,
       "longitude": 138.620129,
@@ -1330,7 +1330,7 @@
     {
       "id": 11889,
       "name": "Glanville",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8440609,
       "longitude": 138.4908979,
@@ -1341,7 +1341,7 @@
     {
       "id": 11203,
       "name": "Ethelton",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.8488333,
       "longitude": 138.4901309,
@@ -1352,7 +1352,7 @@
     {
       "id": 11886,
       "name": "Exeter",
-      "postcode": null,
+      "postcode": "5019",
       "state": "SA",
       "latitude": -34.8384893,
       "longitude": 138.4907683,
@@ -1363,7 +1363,7 @@
     {
       "id": 11885,
       "name": "Largs Bay",
-      "postcode": null,
+      "postcode": "5016",
       "state": "SA",
       "latitude": -34.8266187,
       "longitude": 138.4935504,
@@ -1374,7 +1374,7 @@
     {
       "id": 11449,
       "name": "Dernancourt",
-      "postcode": null,
+      "postcode": "5075",
       "state": "SA",
       "latitude": -34.86198,
       "longitude": 138.6765806,
@@ -1385,7 +1385,7 @@
     {
       "id": 12016,
       "name": "Trinity Gardens",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9112557,
       "longitude": 138.6445065,
@@ -1396,7 +1396,7 @@
     {
       "id": 11922,
       "name": "Firle",
-      "postcode": null,
+      "postcode": "5070",
       "state": "SA",
       "latitude": -34.9045623,
       "longitude": 138.6531687,
@@ -1407,7 +1407,7 @@
     {
       "id": 11750,
       "name": "Chinatown",
-      "postcode": null,
+      "postcode": "5000",
       "state": "SA",
       "latitude": -34.9298802,
       "longitude": 138.5959134,
@@ -1418,7 +1418,7 @@
     {
       "id": 12027,
       "name": "Paradise",
-      "postcode": null,
+      "postcode": "5075",
       "state": "SA",
       "latitude": -34.8710706,
       "longitude": 138.6762598,
@@ -1429,7 +1429,7 @@
     {
       "id": 11879,
       "name": "Torrens Island",
-      "postcode": null,
+      "postcode": "5015",
       "state": "SA",
       "latitude": -34.787563,
       "longitude": 138.5259139,
@@ -1440,7 +1440,7 @@
     {
       "id": 11989,
       "name": "Hectorville",
-      "postcode": null,
+      "postcode": "5073",
       "state": "SA",
       "latitude": -34.8930576,
       "longitude": 138.6656798,
@@ -1451,7 +1451,7 @@
     {
       "id": 11415,
       "name": "Bolivar",
-      "postcode": null,
+      "postcode": "5110",
       "state": "SA",
       "latitude": -34.7715623,
       "longitude": 138.5722034,
@@ -1462,7 +1462,7 @@
     {
       "id": 11894,
       "name": "Norwood",
-      "postcode": null,
+      "postcode": "5067",
       "state": "SA",
       "latitude": -34.9213467,
       "longitude": 138.6320869,
@@ -1473,7 +1473,7 @@
     {
       "id": 11210,
       "name": "Semaphore Park",
-      "postcode": null,
+      "postcode": "5019",
       "state": "SA",
       "latitude": -34.8558053,
       "longitude": 138.4850672,
@@ -1484,7 +1484,7 @@
     {
       "id": 11205,
       "name": "West Lakes Shore",
-      "postcode": null,
+      "postcode": "5020",
       "state": "SA",
       "latitude": -34.865634,
       "longitude": 138.4861882,
@@ -1495,7 +1495,7 @@
     {
       "id": 11063,
       "name": "Hilton",
-      "postcode": null,
+      "postcode": "5033",
       "state": "SA",
       "latitude": -34.9321393,
       "longitude": 138.5658367,
@@ -1506,7 +1506,7 @@
     {
       "id": 11881,
       "name": "Taperoo",
-      "postcode": null,
+      "postcode": "5017",
       "state": "SA",
       "latitude": -34.8065404,
       "longitude": 138.5000199,
@@ -1517,7 +1517,7 @@
     {
       "id": 11887,
       "name": "Semaphore",
-      "postcode": null,
+      "postcode": "5019",
       "state": "SA",
       "latitude": -34.8389194,
       "longitude": 138.4839777,
@@ -1528,7 +1528,7 @@
     {
       "id": 11898,
       "name": "St Morris",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9110511,
       "longitude": 138.6536206,
@@ -1539,7 +1539,7 @@
     {
       "id": 11062,
       "name": "Cowandilla",
-      "postcode": null,
+      "postcode": "5033",
       "state": "SA",
       "latitude": -34.9324599,
       "longitude": 138.5569406,
@@ -1550,7 +1550,7 @@
     {
       "id": 11263,
       "name": "Beulah Park",
-      "postcode": null,
+      "postcode": "5067",
       "state": "SA",
       "latitude": -34.9176726,
       "longitude": 138.6452299,
@@ -1561,7 +1561,7 @@
     {
       "id": 11888,
       "name": "Semaphore South",
-      "postcode": null,
+      "postcode": "5019",
       "state": "SA",
       "latitude": -34.8472424,
       "longitude": 138.4806168,
@@ -1572,7 +1572,7 @@
     {
       "id": 11080,
       "name": "Brooklyn Park",
-      "postcode": null,
+      "postcode": "5032",
       "state": "SA",
       "latitude": -34.9301049,
       "longitude": 138.5447587,
@@ -1583,7 +1583,7 @@
     {
       "id": 11173,
       "name": "Grange",
-      "postcode": null,
+      "postcode": "5022",
       "state": "SA",
       "latitude": -34.8991361,
       "longitude": 138.498079,
@@ -1594,7 +1594,7 @@
     {
       "id": 11915,
       "name": "Keswick Terminal",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9362351,
       "longitude": 138.5796735,
@@ -1605,7 +1605,7 @@
     {
       "id": 11914,
       "name": "Tranmere",
-      "postcode": null,
+      "postcode": "5073",
       "state": "SA",
       "latitude": -34.9054949,
       "longitude": 138.6621098,
@@ -1616,7 +1616,7 @@
     {
       "id": 11137,
       "name": "Lockleys",
-      "postcode": null,
+      "postcode": "5032",
       "state": "SA",
       "latitude": -34.9250195,
       "longitude": 138.5309544,
@@ -1627,7 +1627,7 @@
     {
       "id": 11350,
       "name": "Salisbury South",
-      "postcode": null,
+      "postcode": "5106",
       "state": "SA",
       "latitude": -34.7827756,
       "longitude": 138.6429577,
@@ -1638,7 +1638,7 @@
     {
       "id": 11136,
       "name": "Fulham Gardens",
-      "postcode": null,
+      "postcode": "5024",
       "state": "SA",
       "latitude": -34.9148333,
       "longitude": 138.5132516,
@@ -1649,7 +1649,7 @@
     {
       "id": 11076,
       "name": "Mile End South",
-      "postcode": null,
+      "postcode": "5031",
       "state": "SA",
       "latitude": -34.9369318,
       "longitude": 138.5739376,
@@ -1660,7 +1660,7 @@
     {
       "id": 11435,
       "name": "Modbury North",
-      "postcode": null,
+      "postcode": "5092",
       "state": "SA",
       "latitude": -34.8231427,
       "longitude": 138.6811612,
@@ -1671,7 +1671,7 @@
     {
       "id": 11436,
       "name": "Modbury",
-      "postcode": null,
+      "postcode": "5092",
       "state": "SA",
       "latitude": -34.8338962,
       "longitude": 138.6851156,
@@ -1682,7 +1682,7 @@
     {
       "id": 12089,
       "name": "Rotary Park",
-      "postcode": null,
+      "postcode": "5075",
       "state": "SA",
       "latitude": -34.8664008,
       "longitude": 138.6864482,
@@ -1693,7 +1693,7 @@
     {
       "id": 11461,
       "name": "Salisbury Downs",
-      "postcode": null,
+      "postcode": "5108",
       "state": "SA",
       "latitude": -34.7717678,
       "longitude": 138.6243416,
@@ -1704,7 +1704,7 @@
     {
       "id": 11994,
       "name": "Rose Park",
-      "postcode": null,
+      "postcode": "5067",
       "state": "SA",
       "latitude": -34.9307114,
       "longitude": 138.6282898,
@@ -1715,7 +1715,7 @@
     {
       "id": 11912,
       "name": "Newton",
-      "postcode": null,
+      "postcode": "5074",
       "state": "SA",
       "latitude": -34.8820277,
       "longitude": 138.6824021,
@@ -1726,7 +1726,7 @@
     {
       "id": 11174,
       "name": "Tennyson",
-      "postcode": null,
+      "postcode": "5022",
       "state": "SA",
       "latitude": -34.8861961,
       "longitude": 138.4853423,
@@ -1737,7 +1737,7 @@
     {
       "id": 11067,
       "name": "Richmond",
-      "postcode": null,
+      "postcode": "5033",
       "state": "SA",
       "latitude": -34.9386322,
       "longitude": 138.5621291,
@@ -1748,7 +1748,7 @@
     {
       "id": 11273,
       "name": "Kensington",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9237471,
       "longitude": 138.6456133,
@@ -1759,7 +1759,7 @@
     {
       "id": 11257,
       "name": "Kensington Park",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9202054,
       "longitude": 138.6542962,
@@ -1770,7 +1770,7 @@
     {
       "id": 11880,
       "name": "Osborne",
-      "postcode": null,
+      "postcode": "5017",
       "state": "SA",
       "latitude": -34.7859285,
       "longitude": 138.5072887,
@@ -1781,7 +1781,7 @@
     {
       "id": 11318,
       "name": "Lipson Reach",
-      "postcode": null,
+      "postcode": "5017",
       "state": "SA",
       "latitude": -34.7793206,
       "longitude": 138.5168609,
@@ -1792,7 +1792,7 @@
     {
       "id": 11433,
       "name": "Gulfview Heights",
-      "postcode": null,
+      "postcode": "5096",
       "state": "SA",
       "latitude": -34.7955526,
       "longitude": 138.6693829,
@@ -1803,7 +1803,7 @@
     {
       "id": 11434,
       "name": "Modbury Heights",
-      "postcode": null,
+      "postcode": "5092",
       "state": "SA",
       "latitude": -34.8120502,
       "longitude": 138.6823423,
@@ -1814,7 +1814,7 @@
     {
       "id": 11142,
       "name": "West Richmond",
-      "postcode": null,
+      "postcode": "5033",
       "state": "SA",
       "latitude": -34.9393208,
       "longitude": 138.5504186,
@@ -1825,7 +1825,7 @@
     {
       "id": 11962,
       "name": "Marryatville",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9284327,
       "longitude": 138.6459965,
@@ -1836,7 +1836,7 @@
     {
       "id": 11075,
       "name": "Keswick",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9443902,
       "longitude": 138.5777753,
@@ -1847,7 +1847,7 @@
     {
       "id": 11179,
       "name": "Dulwich",
-      "postcode": null,
+      "postcode": "5065",
       "state": "SA",
       "latitude": -34.9368219,
       "longitude": 138.628747,
@@ -1858,7 +1858,7 @@
     {
       "id": 11980,
       "name": "Toorak Gardens",
-      "postcode": null,
+      "postcode": "5065",
       "state": "SA",
       "latitude": -34.9333315,
       "longitude": 138.6374925,
@@ -1869,7 +1869,7 @@
     {
       "id": 11107,
       "name": "Wayville",
-      "postcode": null,
+      "postcode": "5034",
       "state": "SA",
       "latitude": -34.9448147,
       "longitude": 138.5914429,
@@ -1880,7 +1880,7 @@
     {
       "id": 11451,
       "name": "Hope Valley",
-      "postcode": null,
+      "postcode": "5090",
       "state": "SA",
       "latitude": -34.8453721,
       "longitude": 138.6960181,
@@ -1891,7 +1891,7 @@
     {
       "id": 11206,
       "name": "Henley Beach",
-      "postcode": null,
+      "postcode": "5022",
       "state": "SA",
       "latitude": -34.9158802,
       "longitude": 138.4986953,
@@ -1902,7 +1902,7 @@
     {
       "id": 11086,
       "name": "Fulham",
-      "postcode": null,
+      "postcode": "5024",
       "state": "SA",
       "latitude": -34.9273551,
       "longitude": 138.5136809,
@@ -1913,7 +1913,7 @@
     {
       "id": 12001,
       "name": "Kensington Gardens",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9197256,
       "longitude": 138.6631867,
@@ -1924,7 +1924,7 @@
     {
       "id": 11259,
       "name": "Magill",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9090724,
       "longitude": 138.6749971,
@@ -1935,7 +1935,7 @@
     {
       "id": 12020,
       "name": "Heathpool",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9314228,
       "longitude": 138.6462942,
@@ -1946,7 +1946,7 @@
     {
       "id": 11138,
       "name": "Marleston",
-      "postcode": null,
+      "postcode": "5033",
       "state": "SA",
       "latitude": -34.9453435,
       "longitude": 138.5616289,
@@ -1957,7 +1957,7 @@
     {
       "id": 11464,
       "name": "Brahma Lodge",
-      "postcode": null,
+      "postcode": "5109",
       "state": "SA",
       "latitude": -34.775875,
       "longitude": 138.6530791,
@@ -1968,7 +1968,7 @@
     {
       "id": 11141,
       "name": "Eastwood",
-      "postcode": null,
+      "postcode": "5063",
       "state": "SA",
       "latitude": -34.9422665,
       "longitude": 138.6217189,
@@ -1979,7 +1979,7 @@
     {
       "id": 11293,
       "name": "Barker Inlet",
-      "postcode": null,
+      "postcode": "5355",
       "state": "SA",
       "latitude": -34.7648728,
       "longitude": 138.5318135,
@@ -1990,7 +1990,7 @@
     {
       "id": 11420,
       "name": "Paralowie",
-      "postcode": null,
+      "postcode": "5108",
       "state": "SA",
       "latitude": -34.7570514,
       "longitude": 138.6081109,
@@ -2001,7 +2001,7 @@
     {
       "id": 11074,
       "name": "Ashford",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9486638,
       "longitude": 138.5743627,
@@ -2012,7 +2012,7 @@
     {
       "id": 11256,
       "name": "Leabrook",
-      "postcode": null,
+      "postcode": "5068",
       "state": "SA",
       "latitude": -34.9296992,
       "longitude": 138.6551196,
@@ -2023,7 +2023,7 @@
     {
       "id": 11166,
       "name": "Unley",
-      "postcode": null,
+      "postcode": "5061",
       "state": "SA",
       "latitude": -34.9482998,
       "longitude": 138.606478,
@@ -2034,7 +2034,7 @@
     {
       "id": 11095,
       "name": "Parkside",
-      "postcode": null,
+      "postcode": "5063",
       "state": "SA",
       "latitude": -34.9462533,
       "longitude": 138.6166434,
@@ -2045,7 +2045,7 @@
     {
       "id": 11452,
       "name": "Rostrevor",
-      "postcode": null,
+      "postcode": "5073",
       "state": "SA",
       "latitude": -34.8938435,
       "longitude": 138.6918266,
@@ -2056,7 +2056,7 @@
     {
       "id": 12008,
       "name": "Tusmore",
-      "postcode": null,
+      "postcode": "5065",
       "state": "SA",
       "latitude": -34.9358569,
       "longitude": 138.6473738,
@@ -2067,7 +2067,7 @@
     {
       "id": 11244,
       "name": "Forestville",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9513809,
       "longitude": 138.5809809,
@@ -2078,7 +2078,7 @@
     {
       "id": 11108,
       "name": "Goodwood",
-      "postcode": null,
+      "postcode": "5034",
       "state": "SA",
       "latitude": -34.9510599,
       "longitude": 138.5925347,
@@ -2089,7 +2089,7 @@
     {
       "id": 11877,
       "name": "North Haven",
-      "postcode": null,
+      "postcode": "5018",
       "state": "SA",
       "latitude": -34.7872004,
       "longitude": 138.4905349,
@@ -2100,7 +2100,7 @@
     {
       "id": 11178,
       "name": "Glenside",
-      "postcode": null,
+      "postcode": "5065",
       "state": "SA",
       "latitude": -34.9427375,
       "longitude": 138.6337521,
@@ -2111,7 +2111,7 @@
     {
       "id": 11462,
       "name": "Salisbury",
-      "postcode": null,
+      "postcode": "5108",
       "state": "SA",
       "latitude": -34.7640516,
       "longitude": 138.6418765,
@@ -2122,7 +2122,7 @@
     {
       "id": 11066,
       "name": "Kurralta Park",
-      "postcode": null,
+      "postcode": "5037",
       "state": "SA",
       "latitude": -34.9514285,
       "longitude": 138.5669815,
@@ -2133,7 +2133,7 @@
     {
       "id": 11443,
       "name": "Wynn Vale",
-      "postcode": null,
+      "postcode": "5127",
       "state": "SA",
       "latitude": -34.7994176,
       "longitude": 138.6871415,
@@ -2144,7 +2144,7 @@
     {
       "id": 11200,
       "name": "Netley",
-      "postcode": null,
+      "postcode": "5037",
       "state": "SA",
       "latitude": -34.9493622,
       "longitude": 138.5492002,
@@ -2155,7 +2155,7 @@
     {
       "id": 11897,
       "name": "Erindale",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9288917,
       "longitude": 138.6638814,
@@ -2166,7 +2166,7 @@
     {
       "id": 11073,
       "name": "Everard Park",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9541293,
       "longitude": 138.5746832,
@@ -2177,7 +2177,7 @@
     {
       "id": 11580,
       "name": "Snapper Point",
-      "postcode": null,
+      "postcode": "5355",
       "state": "SA",
       "latitude": -34.7666614,
       "longitude": 138.5131091,
@@ -2188,7 +2188,7 @@
     {
       "id": 11447,
       "name": "Athelstone",
-      "postcode": null,
+      "postcode": "5076",
       "state": "SA",
       "latitude": -34.8714792,
       "longitude": 138.7054458,
@@ -2199,7 +2199,7 @@
     {
       "id": 11454,
       "name": "Woodforde",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9036557,
       "longitude": 138.6907781,
@@ -2210,7 +2210,7 @@
     {
       "id": 11207,
       "name": "Henley Beach South",
-      "postcode": null,
+      "postcode": "5022",
       "state": "SA",
       "latitude": -34.9299358,
       "longitude": 138.5012182,
@@ -2221,7 +2221,7 @@
     {
       "id": 11258,
       "name": "Rosslyn Park",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9219389,
       "longitude": 138.6755282,
@@ -2232,7 +2232,7 @@
     {
       "id": 11892,
       "name": "Adelaide Airport",
-      "postcode": null,
+      "postcode": "5950",
       "state": "SA",
       "latitude": -34.946159,
       "longitude": 138.5307956,
@@ -2243,7 +2243,7 @@
     {
       "id": 11177,
       "name": "Frewville",
-      "postcode": null,
+      "postcode": "5063",
       "state": "SA",
       "latitude": -34.9479853,
       "longitude": 138.6311935,
@@ -2254,7 +2254,7 @@
     {
       "id": 11439,
       "name": "Ridgehaven",
-      "postcode": null,
+      "postcode": "5097",
       "state": "SA",
       "latitude": -34.821255,
       "longitude": 138.7046604,
@@ -2265,7 +2265,7 @@
     {
       "id": 11466,
       "name": "Salisbury East",
-      "postcode": null,
+      "postcode": "5109",
       "state": "SA",
       "latitude": -34.7764785,
       "longitude": 138.6721978,
@@ -2276,7 +2276,7 @@
     {
       "id": 11876,
       "name": "Outer Harbor",
-      "postcode": null,
+      "postcode": "5018",
       "state": "SA",
       "latitude": -34.7727146,
       "longitude": 138.4981585,
@@ -2287,7 +2287,7 @@
     {
       "id": 11109,
       "name": "Millswood",
-      "postcode": null,
+      "postcode": "5034",
       "state": "SA",
       "latitude": -34.9572425,
       "longitude": 138.5894966,
@@ -2298,7 +2298,7 @@
     {
       "id": 11468,
       "name": "Salisbury Plain",
-      "postcode": null,
+      "postcode": "5109",
       "state": "SA",
       "latitude": -34.767408,
       "longitude": 138.6606036,
@@ -2309,7 +2309,7 @@
     {
       "id": 11954,
       "name": "Linden Park",
-      "postcode": null,
+      "postcode": "5065",
       "state": "SA",
       "latitude": -34.9435932,
       "longitude": 138.6472732,
@@ -2320,7 +2320,7 @@
     {
       "id": 11910,
       "name": "Hyde Park",
-      "postcode": null,
+      "postcode": "5061",
       "state": "SA",
       "latitude": -34.9565521,
       "longitude": 138.6029363,
@@ -2331,7 +2331,7 @@
     {
       "id": 11998,
       "name": "Hazelwood Park",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9392651,
       "longitude": 138.6561379,
@@ -2342,7 +2342,7 @@
     {
       "id": 11440,
       "name": "St Agnes",
-      "postcode": null,
+      "postcode": "5097",
       "state": "SA",
       "latitude": -34.8307347,
       "longitude": 138.7107466,
@@ -2353,7 +2353,7 @@
     {
       "id": 11230,
       "name": "North Plympton",
-      "postcode": null,
+      "postcode": "5037",
       "state": "SA",
       "latitude": -34.9557483,
       "longitude": 138.5495314,
@@ -2364,7 +2364,7 @@
     {
       "id": 11448,
       "name": "Auldana",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9180046,
       "longitude": 138.6868888,
@@ -2375,7 +2375,7 @@
     {
       "id": 11176,
       "name": "Fullarton",
-      "postcode": null,
+      "postcode": "5063",
       "state": "SA",
       "latitude": -34.9540475,
       "longitude": 138.6263553,
@@ -2386,7 +2386,7 @@
     {
       "id": 11072,
       "name": "Black Forest",
-      "postcode": null,
+      "postcode": "5035",
       "state": "SA",
       "latitude": -34.9602768,
       "longitude": 138.576661,
@@ -2397,7 +2397,7 @@
     {
       "id": 11319,
       "name": "Light Passage",
-      "postcode": null,
+      "postcode": "5355",
       "state": "SA",
       "latitude": -34.7613242,
       "longitude": 138.5091576,
@@ -2408,7 +2408,7 @@
     {
       "id": 11058,
       "name": "Wattle Park",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9272356,
       "longitude": 138.678485,
@@ -2419,7 +2419,7 @@
     {
       "id": 11192,
       "name": "Glenunga",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9505888,
       "longitude": 138.6392041,
@@ -2430,7 +2430,7 @@
     {
       "id": 11438,
       "name": "Redwood Park",
-      "postcode": null,
+      "postcode": "5097",
       "state": "SA",
       "latitude": -34.8115495,
       "longitude": 138.7069525,
@@ -2441,7 +2441,7 @@
     {
       "id": 11168,
       "name": "Malvern",
-      "postcode": null,
+      "postcode": "5061",
       "state": "SA",
       "latitude": -34.9591393,
       "longitude": 138.6125368,
@@ -2452,7 +2452,7 @@
     {
       "id": 11071,
       "name": "Glandore",
-      "postcode": null,
+      "postcode": "5037",
       "state": "SA",
       "latitude": -34.9615032,
       "longitude": 138.5683445,
@@ -2463,7 +2463,7 @@
     {
       "id": 11450,
       "name": "Highbury",
-      "postcode": null,
+      "postcode": "5089",
       "state": "SA",
       "latitude": -34.8520517,
       "longitude": 138.7178758,
@@ -2474,7 +2474,7 @@
     {
       "id": 11130,
       "name": "West Beach",
-      "postcode": null,
+      "postcode": "5024",
       "state": "SA",
       "latitude": -34.9451586,
       "longitude": 138.5091364,
@@ -2485,7 +2485,7 @@
     {
       "id": 11579,
       "name": "Pelican Point1",
-      "postcode": null,
+      "postcode": "5291",
       "state": "SA",
       "latitude": -34.7631095,
       "longitude": 138.5005135,
@@ -2496,7 +2496,7 @@
     {
       "id": 11169,
       "name": "Unley Park",
-      "postcode": null,
+      "postcode": "5061",
       "state": "SA",
       "latitude": -34.9625522,
       "longitude": 138.6014453,
@@ -2507,7 +2507,7 @@
     {
       "id": 11422,
       "name": "Salisbury North",
-      "postcode": null,
+      "postcode": "5108",
       "state": "SA",
       "latitude": -34.745959,
       "longitude": 138.6276437,
@@ -2518,7 +2518,7 @@
     {
       "id": 12037,
       "name": "Burnside",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9399478,
       "longitude": 138.666656,
@@ -2529,7 +2529,7 @@
     {
       "id": 11110,
       "name": "Kings Park",
-      "postcode": null,
+      "postcode": "5034",
       "state": "SA",
       "latitude": -34.9635812,
       "longitude": 138.5927206,
@@ -2540,7 +2540,7 @@
     {
       "id": 11111,
       "name": "Clarence Park",
-      "postcode": null,
+      "postcode": "5034",
       "state": "SA",
       "latitude": -34.963961,
       "longitude": 138.5836509,
@@ -2551,7 +2551,7 @@
     {
       "id": 11139,
       "name": "Plympton",
-      "postcode": null,
+      "postcode": "5038",
       "state": "SA",
       "latitude": -34.9620679,
       "longitude": 138.554884,
@@ -2562,7 +2562,7 @@
     {
       "id": 11274,
       "name": "Stonyfell",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9341531,
       "longitude": 138.6768146,
@@ -2573,7 +2573,7 @@
     {
       "id": 11959,
       "name": "St Georges",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9519971,
       "longitude": 138.64787,
@@ -2584,7 +2584,7 @@
     {
       "id": 11991,
       "name": "Highgate",
-      "postcode": null,
+      "postcode": "5063",
       "state": "SA",
       "latitude": -34.9616443,
       "longitude": 138.6216675,
@@ -2595,7 +2595,7 @@
     {
       "id": 11417,
       "name": "Burton",
-      "postcode": null,
+      "postcode": "5110",
       "state": "SA",
       "latitude": -34.7377001,
       "longitude": 138.6001346,
@@ -2606,7 +2606,7 @@
     {
       "id": 11453,
       "name": "Skye",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9244298,
       "longitude": 138.692899,
@@ -2617,7 +2617,7 @@
     {
       "id": 11193,
       "name": "Myrtle Bank",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9605623,
       "longitude": 138.6337941,
@@ -2628,7 +2628,7 @@
     {
       "id": 11467,
       "name": "Salisbury Park",
-      "postcode": null,
+      "postcode": "5109",
       "state": "SA",
       "latitude": -34.7587077,
       "longitude": 138.6682306,
@@ -2639,7 +2639,7 @@
     {
       "id": 11907,
       "name": "Beaumont",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9499756,
       "longitude": 138.6593163,
@@ -2650,7 +2650,7 @@
     {
       "id": 11441,
       "name": "Surrey Downs",
-      "postcode": null,
+      "postcode": "5126",
       "state": "SA",
       "latitude": -34.7995126,
       "longitude": 138.7115211,
@@ -2661,7 +2661,7 @@
     {
       "id": 11950,
       "name": "Cumberland Park",
-      "postcode": null,
+      "postcode": "5041",
       "state": "SA",
       "latitude": -34.9720383,
       "longitude": 138.5866928,
@@ -2672,7 +2672,7 @@
     {
       "id": 11965,
       "name": "Westbourne Park",
-      "postcode": null,
+      "postcode": "5041",
       "state": "SA",
       "latitude": -34.9716448,
       "longitude": 138.5952464,
@@ -2683,7 +2683,7 @@
     {
       "id": 11199,
       "name": "Camden Park",
-      "postcode": null,
+      "postcode": "5038",
       "state": "SA",
       "latitude": -34.967136,
       "longitude": 138.5414065,
@@ -2694,7 +2694,7 @@
     {
       "id": 12007,
       "name": "Hawthorn",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9709849,
       "longitude": 138.6041231,
@@ -2705,7 +2705,7 @@
     {
       "id": 11265,
       "name": "Teringie",
-      "postcode": null,
+      "postcode": "5072",
       "state": "SA",
       "latitude": -34.9149989,
       "longitude": 138.7077959,
@@ -2716,7 +2716,7 @@
     {
       "id": 11194,
       "name": "Glen Osmond",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9594803,
       "longitude": 138.6489781,
@@ -2727,7 +2727,7 @@
     {
       "id": 11899,
       "name": "Clarence Gardens",
-      "postcode": null,
+      "postcode": "5039",
       "state": "SA",
       "latitude": -34.9724861,
       "longitude": 138.5777745,
@@ -2738,7 +2738,7 @@
     {
       "id": 11353,
       "name": "Salisbury Heights",
-      "postcode": null,
+      "postcode": "5109",
       "state": "SA",
       "latitude": -34.762779,
       "longitude": 138.6837193,
@@ -2749,7 +2749,7 @@
     {
       "id": 11904,
       "name": "Kingswood",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9708157,
       "longitude": 138.6138099,
@@ -2760,7 +2760,7 @@
     {
       "id": 11893,
       "name": "Novar Gardens",
-      "postcode": null,
+      "postcode": "5040",
       "state": "SA",
       "latitude": -34.9659834,
       "longitude": 138.5316592,
@@ -2771,7 +2771,7 @@
     {
       "id": 11917,
       "name": "Vista",
-      "postcode": null,
+      "postcode": "5091",
       "state": "SA",
       "latitude": -34.8358304,
       "longitude": 138.7308991,
@@ -2782,7 +2782,7 @@
     {
       "id": 11156,
       "name": "South Plympton",
-      "postcode": null,
+      "postcode": "5038",
       "state": "SA",
       "latitude": -34.9737586,
       "longitude": 138.5601708,
@@ -2793,7 +2793,7 @@
     {
       "id": 12024,
       "name": "Netherby",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9704959,
       "longitude": 138.6250739,
@@ -2804,7 +2804,7 @@
     {
       "id": 11352,
       "name": "Elizabeth Vale",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7489643,
       "longitude": 138.6676385,
@@ -2815,7 +2815,7 @@
     {
       "id": 11354,
       "name": "Tea Tree Gully",
-      "postcode": null,
+      "postcode": "5091",
       "state": "SA",
       "latitude": -34.8218243,
       "longitude": 138.7292797,
@@ -2826,7 +2826,7 @@
     {
       "id": 11988,
       "name": "Urrbrae",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9681485,
       "longitude": 138.638607,
@@ -2837,7 +2837,7 @@
     {
       "id": 11378,
       "name": "Elizabeth South",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7411213,
       "longitude": 138.6564373,
@@ -2848,7 +2848,7 @@
     {
       "id": 11157,
       "name": "Plympton Park",
-      "postcode": null,
+      "postcode": "5038",
       "state": "SA",
       "latitude": -34.9759315,
       "longitude": 138.5514765,
@@ -2859,7 +2859,7 @@
     {
       "id": 11429,
       "name": "Banksia Park",
-      "postcode": null,
+      "postcode": "5091",
       "state": "SA",
       "latitude": -34.8105248,
       "longitude": 138.7305864,
@@ -2870,7 +2870,7 @@
     {
       "id": 11129,
       "name": "Glenelg North",
-      "postcode": null,
+      "postcode": "5045",
       "state": "SA",
       "latitude": -34.9687529,
       "longitude": 138.5180699,
@@ -2881,7 +2881,7 @@
     {
       "id": 11195,
       "name": "Mount Osmond",
-      "postcode": null,
+      "postcode": "5064",
       "state": "SA",
       "latitude": -34.9639921,
       "longitude": 138.6593756,
@@ -2892,7 +2892,7 @@
     {
       "id": 11183,
       "name": "Edwardstown",
-      "postcode": null,
+      "postcode": "5039",
       "state": "SA",
       "latitude": -34.9802157,
       "longitude": 138.5694275,
@@ -2903,7 +2903,7 @@
     {
       "id": 11418,
       "name": "Direk",
-      "postcode": null,
+      "postcode": "5110",
       "state": "SA",
       "latitude": -34.7234261,
       "longitude": 138.6091055,
@@ -2914,7 +2914,7 @@
     {
       "id": 11943,
       "name": "Horsnell Gully",
-      "postcode": null,
+      "postcode": "5141",
       "state": "SA",
       "latitude": -34.9351115,
       "longitude": 138.7043814,
@@ -2925,7 +2925,7 @@
     {
       "id": 11935,
       "name": "Lower Mitcham",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9809947,
       "longitude": 138.6056869,
@@ -2936,7 +2936,7 @@
     {
       "id": 12039,
       "name": "Newmans Nursery Ruins",
-      "postcode": null,
+      "postcode": "5091",
       "state": "SA",
       "latitude": -34.8350416,
       "longitude": 138.7401741,
@@ -2947,7 +2947,7 @@
     {
       "id": 11430,
       "name": "Fairview Park",
-      "postcode": null,
+      "postcode": "5126",
       "state": "SA",
       "latitude": -34.80037,
       "longitude": 138.7287703,
@@ -2958,7 +2958,7 @@
     {
       "id": 11112,
       "name": "Colonel Light Gardens",
-      "postcode": null,
+      "postcode": "5041",
       "state": "SA",
       "latitude": -34.9835849,
       "longitude": 138.5946908,
@@ -2969,7 +2969,7 @@
     {
       "id": 11973,
       "name": "Greenhill",
-      "postcode": null,
+      "postcode": "5140",
       "state": "SA",
       "latitude": -34.9498921,
       "longitude": 138.6918354,
@@ -2980,7 +2980,7 @@
     {
       "id": 11974,
       "name": "Springfield",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9784586,
       "longitude": 138.6327195,
@@ -2991,7 +2991,7 @@
     {
       "id": 11976,
       "name": "Waterfall Gully",
-      "postcode": null,
+      "postcode": "5066",
       "state": "SA",
       "latitude": -34.9617367,
       "longitude": 138.6744547,
@@ -3002,7 +3002,7 @@
     {
       "id": 11167,
       "name": "Melrose Park",
-      "postcode": null,
+      "postcode": "5039",
       "state": "SA",
       "latitude": -34.9852656,
       "longitude": 138.5786976,
@@ -3013,7 +3013,7 @@
     {
       "id": 11113,
       "name": "Daw Park",
-      "postcode": null,
+      "postcode": "5041",
       "state": "SA",
       "latitude": -34.9853742,
       "longitude": 138.5877817,
@@ -3024,7 +3024,7 @@
     {
       "id": 12003,
       "name": "Torrens Park",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9852635,
       "longitude": 138.6136567,
@@ -3035,7 +3035,7 @@
     {
       "id": 11368,
       "name": "Elizabeth Grove",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7362048,
       "longitude": 138.6703138,
@@ -3046,7 +3046,7 @@
     {
       "id": 11432,
       "name": "Greenwith",
-      "postcode": null,
+      "postcode": "5125",
       "state": "SA",
       "latitude": -34.7651613,
       "longitude": 138.7106607,
@@ -3057,7 +3057,7 @@
     {
       "id": 11997,
       "name": "Mitcham",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9842362,
       "longitude": 138.6230072,
@@ -3068,7 +3068,7 @@
     {
       "id": 11160,
       "name": "Morphettville",
-      "postcode": null,
+      "postcode": "5043",
       "state": "SA",
       "latitude": -34.9846034,
       "longitude": 138.5430906,
@@ -3079,7 +3079,7 @@
     {
       "id": 11315,
       "name": "Devil's Elbow",
-      "postcode": null,
+      "postcode": "5150",
       "state": "SA",
       "latitude": -34.9681164,
       "longitude": 138.6709214,
@@ -3090,7 +3090,7 @@
     {
       "id": 11159,
       "name": "Ascot Park",
-      "postcode": null,
+      "postcode": "5043",
       "state": "SA",
       "latitude": -34.9881162,
       "longitude": 138.5610603,
@@ -3101,7 +3101,7 @@
     {
       "id": 11128,
       "name": "Glenelg East",
-      "postcode": null,
+      "postcode": "5045",
       "state": "SA",
       "latitude": -34.9816292,
       "longitude": 138.5258321,
@@ -3112,7 +3112,7 @@
     {
       "id": 11419,
       "name": "Edinburgh",
-      "postcode": null,
+      "postcode": "5111",
       "state": "SA",
       "latitude": -34.7191379,
       "longitude": 138.6350042,
@@ -3123,7 +3123,7 @@
     {
       "id": 11928,
       "name": "Leawood Gardens",
-      "postcode": null,
+      "postcode": "5150",
       "state": "SA",
       "latitude": -34.9713981,
       "longitude": 138.6696643,
@@ -3134,7 +3134,7 @@
     {
       "id": 11158,
       "name": "Park Holme",
-      "postcode": null,
+      "postcode": "5043",
       "state": "SA",
       "latitude": -34.9889082,
       "longitude": 138.5521769,
@@ -3145,7 +3145,7 @@
     {
       "id": 11267,
       "name": "Clapham",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9901443,
       "longitude": 138.6050177,
@@ -3156,7 +3156,7 @@
     {
       "id": 12077,
       "name": "Wylie's Corner",
-      "postcode": null,
+      "postcode": "5150",
       "state": "SA",
       "latitude": -34.9745156,
       "longitude": 138.6653376,
@@ -3167,7 +3167,7 @@
     {
       "id": 11424,
       "name": "Waterloo Corner",
-      "postcode": null,
+      "postcode": "5110",
       "state": "SA",
       "latitude": -34.7117818,
       "longitude": 138.5673475,
@@ -3178,7 +3178,7 @@
     {
       "id": 11947,
       "name": "Glenelg",
-      "postcode": null,
+      "postcode": "5045",
       "state": "SA",
       "latitude": -34.9803673,
       "longitude": 138.5143342,
@@ -3189,7 +3189,7 @@
     {
       "id": 11431,
       "name": "Golden Grove",
-      "postcode": null,
+      "postcode": "5125",
       "state": "SA",
       "latitude": -34.7773871,
       "longitude": 138.7290659,
@@ -3200,7 +3200,7 @@
     {
       "id": 11161,
       "name": "Glengowrie",
-      "postcode": null,
+      "postcode": "5044",
       "state": "SA",
       "latitude": -34.9873641,
       "longitude": 138.5335468,
@@ -3211,7 +3211,7 @@
     {
       "id": 11444,
       "name": "Yatala Vale",
-      "postcode": null,
+      "postcode": "5126",
       "state": "SA",
       "latitude": -34.7940132,
       "longitude": 138.7405527,
@@ -3222,7 +3222,7 @@
     {
       "id": 11952,
       "name": "Brown Hill Creek",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9842639,
       "longitude": 138.6502773,
@@ -3233,7 +3233,7 @@
     {
       "id": 11266,
       "name": "Houghton",
-      "postcode": null,
+      "postcode": "5131",
       "state": "SA",
       "latitude": -34.8299336,
       "longitude": 138.7555961,
@@ -3244,7 +3244,7 @@
     {
       "id": 11348,
       "name": "Hillbank",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7351475,
       "longitude": 138.6873019,
@@ -3255,7 +3255,7 @@
     {
       "id": 11895,
       "name": "Lynton",
-      "postcode": null,
+      "postcode": "5062",
       "state": "SA",
       "latitude": -34.9973436,
       "longitude": 138.6073941,
@@ -3266,7 +3266,7 @@
     {
       "id": 11115,
       "name": "Clovelly Park",
-      "postcode": null,
+      "postcode": "5042",
       "state": "SA",
       "latitude": -34.998473,
       "longitude": 138.5708472,
@@ -3277,7 +3277,7 @@
     {
       "id": 11127,
       "name": "Glenelg South",
-      "postcode": null,
+      "postcode": "5045",
       "state": "SA",
       "latitude": -34.9882596,
       "longitude": 138.5147879,
@@ -3288,7 +3288,7 @@
     {
       "id": 11114,
       "name": "Panorama",
-      "postcode": null,
+      "postcode": "5041",
       "state": "SA",
       "latitude": -34.9998042,
       "longitude": 138.5972359,
@@ -3299,7 +3299,7 @@
     {
       "id": 11949,
       "name": "Cleland",
-      "postcode": null,
+      "postcode": "5152",
       "state": "SA",
       "latitude": -34.9682869,
       "longitude": 138.6957514,
@@ -3310,7 +3310,7 @@
     {
       "id": 11823,
       "name": "Elizabeth",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7202612,
       "longitude": 138.6693371,
@@ -3321,7 +3321,7 @@
     {
       "id": 11365,
       "name": "Elizabeth East",
-      "postcode": null,
+      "postcode": "5112",
       "state": "SA",
       "latitude": -34.7260216,
       "longitude": 138.6815148,
@@ -3332,7 +3332,7 @@
     {
       "id": 11096,
       "name": "Pasadena",
-      "postcode": null,
+      "postcode": "5042",
       "state": "SA",
       "latitude": -35.0027228,
       "longitude": 138.5886214,
@@ -3343,7 +3343,7 @@
     {
       "id": 11854,
       "name": "Belair",
-      "postcode": null,
+      "postcode": "5052",
       "state": "SA",
       "latitude": -34.9993826,
       "longitude": 138.625499,
@@ -3354,7 +3354,7 @@
     {
       "id": 11822,
       "name": "Castambul",
-      "postcode": null,
+      "postcode": "5076",
       "state": "SA",
       "latitude": -34.8715708,
       "longitude": 138.765632,
@@ -3365,7 +3365,7 @@
     {
       "id": 11104,
       "name": "St Marys",
-      "postcode": null,
+      "postcode": "5042",
       "state": "SA",
       "latitude": -35.0042228,
       "longitude": 138.5798367,
@@ -3376,7 +3376,7 @@
     {
       "id": 11126,
       "name": "Somerton Park",
-      "postcode": null,
+      "postcode": "5044",
       "state": "SA",
       "latitude": -34.9964662,
       "longitude": 138.5198411,
@@ -3387,7 +3387,7 @@
     {
       "id": 11117,
       "name": "Mitchell Park",
-      "postcode": null,
+      "postcode": "5043",
       "state": "SA",
       "latitude": -35.0050596,
       "longitude": 138.5623283,
@@ -3398,7 +3398,7 @@
     {
       "id": 11398,
       "name": "Paracombe",
-      "postcode": null,
+      "postcode": "5132",
       "state": "SA",
       "latitude": -34.8480469,
       "longitude": 138.7702996,
@@ -3409,7 +3409,7 @@
     {
       "id": 11118,
       "name": "Marion",
-      "postcode": null,
+      "postcode": "5043",
       "state": "SA",
       "latitude": -35.0063569,
       "longitude": 138.5535092,
@@ -3420,7 +3420,7 @@
     {
       "id": 11873,
       "name": "Tonsley",
-      "postcode": null,
+      "postcode": "5042",
       "state": "SA",
       "latitude": -35.0082318,
       "longitude": 138.572569,
@@ -3431,7 +3431,7 @@
     {
       "id": 11119,
       "name": "Oaklands Park",
-      "postcode": null,
+      "postcode": "5046",
       "state": "SA",
       "latitude": -35.0066862,
       "longitude": 138.544563,
@@ -3442,7 +3442,7 @@
     {
       "id": 11824,
       "name": "Edinburgh North",
-      "postcode": null,
+      "postcode": "5113",
       "state": "SA",
       "latitude": -34.7043026,
       "longitude": 138.658179,
@@ -3453,7 +3453,7 @@
     {
       "id": 11122,
       "name": "Warradale",
-      "postcode": null,
+      "postcode": "5046",
       "state": "SA",
       "latitude": -35.0073785,
       "longitude": 138.5355935,
@@ -3464,7 +3464,7 @@
     {
       "id": 11845,
       "name": "Gould Creek",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.7440517,
       "longitude": 138.7289415,
@@ -3475,7 +3475,7 @@
     {
       "id": 11124,
       "name": "North Brighton",
-      "postcode": null,
+      "postcode": "5048",
       "state": "SA",
       "latitude": -35.00504,
       "longitude": 138.5209168,
@@ -3486,7 +3486,7 @@
     {
       "id": 11367,
       "name": "Elizabeth Park",
-      "postcode": null,
+      "postcode": "5113",
       "state": "SA",
       "latitude": -34.7123891,
       "longitude": 138.6852025,
@@ -3497,7 +3497,7 @@
     {
       "id": 11421,
       "name": "Penfield",
-      "postcode": null,
+      "postcode": "5121",
       "state": "SA",
       "latitude": -34.6916809,
       "longitude": 138.6204389,
@@ -3508,7 +3508,7 @@
     {
       "id": 12132,
       "name": "The Palms Residential Village",
-      "postcode": null,
+      "postcode": "5120",
       "state": "SA",
       "latitude": -34.6894949,
       "longitude": 138.5578137,
@@ -3519,7 +3519,7 @@
     {
       "id": 11152,
       "name": "Summertown",
-      "postcode": null,
+      "postcode": "5141",
       "state": "SA",
       "latitude": -34.9594198,
       "longitude": 138.7321907,
@@ -3530,7 +3530,7 @@
     {
       "id": 11853,
       "name": "Glenalta",
-      "postcode": null,
+      "postcode": "5052",
       "state": "SA",
       "latitude": -35.0119208,
       "longitude": 138.6282242,
@@ -3541,7 +3541,7 @@
     {
       "id": 11125,
       "name": "Hove",
-      "postcode": null,
+      "postcode": "5048",
       "state": "SA",
       "latitude": -35.0111931,
       "longitude": 138.5226547,
@@ -3552,7 +3552,7 @@
     {
       "id": 12148,
       "name": "Lower Hermitage",
-      "postcode": null,
+      "postcode": "5131",
       "state": "SA",
       "latitude": -34.7943317,
       "longitude": 138.7745355,
@@ -3563,7 +3563,7 @@
     {
       "id": 11351,
       "name": "Elizabeth North",
-      "postcode": null,
+      "postcode": "5113",
       "state": "SA",
       "latitude": -34.7008443,
       "longitude": 138.6770148,
@@ -3574,7 +3574,7 @@
     {
       "id": 11855,
       "name": "Eden Hills",
-      "postcode": null,
+      "postcode": "5050",
       "state": "SA",
       "latitude": -35.0210612,
       "longitude": 138.5956889,
@@ -3585,7 +3585,7 @@
     {
       "id": 11116,
       "name": "Bedford Park",
-      "postcode": null,
+      "postcode": "5042",
       "state": "SA",
       "latitude": -35.0233978,
       "longitude": 138.5698409,
@@ -3596,7 +3596,7 @@
     {
       "id": 11851,
       "name": "Blackwood",
-      "postcode": null,
+      "postcode": "5051",
       "state": "SA",
       "latitude": -35.0223835,
       "longitude": 138.6128068,
@@ -3607,7 +3607,7 @@
     {
       "id": 11874,
       "name": "Eyre",
-      "postcode": null,
+      "postcode": "5121",
       "state": "SA",
       "latitude": -34.688566,
       "longitude": 138.6507761,
@@ -3618,7 +3618,7 @@
     {
       "id": 11120,
       "name": "Sturt",
-      "postcode": null,
+      "postcode": "5047",
       "state": "SA",
       "latitude": -35.0227428,
       "longitude": 138.5546331,
@@ -3629,7 +3629,7 @@
     {
       "id": 11238,
       "name": "Hawthorndene",
-      "postcode": null,
+      "postcode": "5051",
       "state": "SA",
       "latitude": -35.0214465,
       "longitude": 138.6289085,
@@ -3640,7 +3640,7 @@
     {
       "id": 11065,
       "name": "Brighton",
-      "postcode": null,
+      "postcode": "5048",
       "state": "SA",
       "latitude": -35.0184242,
       "longitude": 138.5223596,
@@ -3651,7 +3651,7 @@
     {
       "id": 11121,
       "name": "Seacombe Gardens",
-      "postcode": null,
+      "postcode": "5047",
       "state": "SA",
       "latitude": -35.0233558,
       "longitude": 138.5457983,
@@ -3662,7 +3662,7 @@
     {
       "id": 11407,
       "name": "Davoren Park",
-      "postcode": null,
+      "postcode": "5113",
       "state": "SA",
       "latitude": -34.6910694,
       "longitude": 138.6683869,
@@ -3673,7 +3673,7 @@
     {
       "id": 11151,
       "name": "Piccadilly",
-      "postcode": null,
+      "postcode": "5151",
       "state": "SA",
       "latitude": -34.9822479,
       "longitude": 138.7262528,
@@ -3684,7 +3684,7 @@
     {
       "id": 11123,
       "name": "Dover Gardens",
-      "postcode": null,
+      "postcode": "5048",
       "state": "SA",
       "latitude": -35.023994,
       "longitude": 138.5369482,
@@ -3695,7 +3695,7 @@
     {
       "id": 11416,
       "name": "Buckland Park",
-      "postcode": null,
+      "postcode": "5120",
       "state": "SA",
       "latitude": -34.6777748,
       "longitude": 138.5387677,
@@ -3706,7 +3706,7 @@
     {
       "id": 11375,
       "name": "Elizabeth Downs",
-      "postcode": null,
+      "postcode": "5113",
       "state": "SA",
       "latitude": -34.6993155,
       "longitude": 138.6935867,
@@ -3717,7 +3717,7 @@
     {
       "id": 12125,
       "name": "Kenneth Stirling Conservation Park - Burdetts Scrub",
-      "postcode": null,
+      "postcode": "5139",
       "state": "SA",
       "latitude": -34.9183666,
       "longitude": 138.7835465,
@@ -3728,7 +3728,7 @@
     {
       "id": 11856,
       "name": "Bellevue Heights",
-      "postcode": null,
+      "postcode": "5050",
       "state": "SA",
       "latitude": -35.0301985,
       "longitude": 138.5831094,
@@ -3739,7 +3739,7 @@
     {
       "id": 11150,
       "name": "Crafers",
-      "postcode": null,
+      "postcode": "5152",
       "state": "SA",
       "latitude": -34.9933414,
       "longitude": 138.7162883,
@@ -3750,7 +3750,7 @@
     {
       "id": 11921,
       "name": "South Brighton",
-      "postcode": null,
+      "postcode": "5048",
       "state": "SA",
       "latitude": -35.025966,
       "longitude": 138.5253346,
@@ -3761,7 +3761,7 @@
     {
       "id": 12099,
       "name": "Australian & American Forces Memorial Plantation",
-      "postcode": null,
+      "postcode": "5156",
       "state": "SA",
       "latitude": -35.0163199,
       "longitude": 138.674228,
@@ -3772,7 +3772,7 @@
     {
       "id": 11196,
       "name": "Crafers West",
-      "postcode": null,
+      "postcode": "5152",
       "state": "SA",
       "latitude": -35.0069818,
       "longitude": 138.698113,
@@ -3783,7 +3783,7 @@
     {
       "id": 11260,
       "name": "Darlington",
-      "postcode": null,
+      "postcode": "5047",
       "state": "SA",
       "latitude": -35.032984,
       "longitude": 138.5562895,
@@ -3794,7 +3794,7 @@
     {
       "id": 11469,
       "name": "Craigmore",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.7006365,
       "longitude": 138.7095493,
@@ -3805,7 +3805,7 @@
     {
       "id": 11857,
       "name": "Seacombe Heights",
-      "postcode": null,
+      "postcode": "5047",
       "state": "SA",
       "latitude": -35.0337432,
       "longitude": 138.5461915,
@@ -3816,7 +3816,7 @@
     {
       "id": 11423,
       "name": "Virginia",
-      "postcode": null,
+      "postcode": "5120",
       "state": "SA",
       "latitude": -34.666952,
       "longitude": 138.560977,
@@ -3827,7 +3827,7 @@
     {
       "id": 11405,
       "name": "Smithfield",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.6848432,
       "longitude": 138.686233,
@@ -3838,7 +3838,7 @@
     {
       "id": 11850,
       "name": "Craigburn Farm",
-      "postcode": null,
+      "postcode": "5051",
       "state": "SA",
       "latitude": -35.0374723,
       "longitude": 138.6125064,
@@ -3849,7 +3849,7 @@
     {
       "id": 11406,
       "name": "Andrews Farm",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.6749515,
       "longitude": 138.6595143,
@@ -3860,7 +3860,7 @@
     {
       "id": 11983,
       "name": "Seacliff",
-      "postcode": null,
+      "postcode": "5049",
       "state": "SA",
       "latitude": -35.0322783,
       "longitude": 138.5205924,
@@ -3871,7 +3871,7 @@
     {
       "id": 11930,
       "name": "MacDonald Park",
-      "postcode": null,
+      "postcode": "5121",
       "state": "SA",
       "latitude": -34.6700071,
       "longitude": 138.6407608,
@@ -3882,7 +3882,7 @@
     {
       "id": 11149,
       "name": "Stirling",
-      "postcode": null,
+      "postcode": "5152",
       "state": "SA",
       "latitude": -35.0047044,
       "longitude": 138.7163341,
@@ -3893,7 +3893,7 @@
     {
       "id": 12035,
       "name": "Thomas Hill",
-      "postcode": null,
+      "postcode": "5076",
       "state": "SA",
       "latitude": -34.8795853,
       "longitude": 138.8097534,
@@ -3904,7 +3904,7 @@
     {
       "id": 12151,
       "name": "Millbrook",
-      "postcode": null,
+      "postcode": "5231",
       "state": "SA",
       "latitude": -34.8238021,
       "longitude": 138.809837,
@@ -3915,7 +3915,7 @@
     {
       "id": 11866,
       "name": "Upper Sturt",
-      "postcode": null,
+      "postcode": "5156",
       "state": "SA",
       "latitude": -35.021931,
       "longitude": 138.6862993,
@@ -3926,7 +3926,7 @@
     {
       "id": 11849,
       "name": "Smithfield Plains",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.676735,
       "longitude": 138.676858,
@@ -3937,7 +3937,7 @@
     {
       "id": 11946,
       "name": "Seaview Downs",
-      "postcode": null,
+      "postcode": "5049",
       "state": "SA",
       "latitude": -35.04215,
       "longitude": 138.5383393,
@@ -3948,7 +3948,7 @@
     {
       "id": 11957,
       "name": "Kingston Park",
-      "postcode": null,
+      "postcode": "5049",
       "state": "SA",
       "latitude": -35.0387571,
       "longitude": 138.5177037,
@@ -3959,7 +3959,7 @@
     {
       "id": 11963,
       "name": "Penfield Gardens",
-      "postcode": null,
+      "postcode": "5121",
       "state": "SA",
       "latitude": -34.658468,
       "longitude": 138.6132386,
@@ -3970,7 +3970,7 @@
     {
       "id": 11859,
       "name": "Seacliff Park",
-      "postcode": null,
+      "postcode": "5049",
       "state": "SA",
       "latitude": -35.0426562,
       "longitude": 138.5294554,
@@ -3981,7 +3981,7 @@
     {
       "id": 11852,
       "name": "Coromandel Valley",
-      "postcode": null,
+      "postcode": "5051",
       "state": "SA",
       "latitude": -35.0450223,
       "longitude": 138.6236483,
@@ -3992,7 +3992,7 @@
     {
       "id": 12149,
       "name": "Forest Range",
-      "postcode": null,
+      "postcode": "5139",
       "state": "SA",
       "latitude": -34.9324237,
       "longitude": 138.8000483,
@@ -4003,7 +4003,7 @@
     {
       "id": 11816,
       "name": "Flagstaff Hill",
-      "postcode": null,
+      "postcode": "5159",
       "state": "SA",
       "latitude": -35.0486099,
       "longitude": 138.5852223,
@@ -4014,7 +4014,7 @@
     {
       "id": 12133,
       "name": "Riverlea",
-      "postcode": null,
+      "postcode": "5120",
       "state": "SA",
       "latitude": -34.6620803,
       "longitude": 138.5167877,
@@ -4025,7 +4025,7 @@
     {
       "id": 11518,
       "name": "Blakes Crossing",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.6784301,
       "longitude": 138.7010705,
@@ -4036,7 +4036,7 @@
     {
       "id": 12090,
       "name": "Riverlea Park",
-      "postcode": null,
+      "postcode": "5120",
       "state": "SA",
       "latitude": -34.6595457,
       "longitude": 138.5171699,
@@ -4047,7 +4047,7 @@
     {
       "id": 11846,
       "name": "Sampson Flat",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.7489957,
       "longitude": 138.791576,
@@ -4058,7 +4058,7 @@
     {
       "id": 11473,
       "name": "One Tree Hill",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.7186911,
       "longitude": 138.7656403,
@@ -4069,7 +4069,7 @@
     {
       "id": 12029,
       "name": "Coromandel East",
-      "postcode": null,
+      "postcode": "5157",
       "state": "SA",
       "latitude": -35.047407,
       "longitude": 138.6490488,
@@ -4080,7 +4080,7 @@
     {
       "id": 12127,
       "name": "Kenneth Stirling Conservation Park - Fillsell Hill",
-      "postcode": null,
+      "postcode": "5139",
       "state": "SA",
       "latitude": -34.9586235,
       "longitude": 138.7934635,
@@ -4091,7 +4091,7 @@
     {
       "id": 12150,
       "name": "Mount George",
-      "postcode": null,
+      "postcode": "5155",
       "state": "SA",
       "latitude": -34.9914668,
       "longitude": 138.7635394,
@@ -4102,7 +4102,7 @@
     {
       "id": 11343,
       "name": "Blakeview",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.6756176,
       "longitude": 138.710052,
@@ -4113,7 +4113,7 @@
     {
       "id": 11860,
       "name": "Marino",
-      "postcode": null,
+      "postcode": "5049",
       "state": "SA",
       "latitude": -35.0499168,
       "longitude": 138.5153326,
@@ -4124,7 +4124,7 @@
     {
       "id": 11404,
       "name": "Munno Para",
-      "postcode": null,
+      "postcode": "5115",
       "state": "SA",
       "latitude": -34.6655937,
       "longitude": 138.6900298,
@@ -4135,7 +4135,7 @@
     {
       "id": 11148,
       "name": "Aldgate",
-      "postcode": null,
+      "postcode": "5154",
       "state": "SA",
       "latitude": -35.0152371,
       "longitude": 138.7351789,
@@ -4146,7 +4146,7 @@
     {
       "id": 11093,
       "name": "O'Halloran Hill",
-      "postcode": null,
+      "postcode": "5158",
       "state": "SA",
       "latitude": -35.0570961,
       "longitude": 138.5536021,
@@ -4157,7 +4157,7 @@
     {
       "id": 11408,
       "name": "Munno Para West",
-      "postcode": null,
+      "postcode": "5115",
       "state": "SA",
       "latitude": -34.6572412,
       "longitude": 138.6697638,
@@ -4168,7 +4168,7 @@
     {
       "id": 12126,
       "name": "Kenneth Stirling Conservation Park - Wottons Scrub",
-      "postcode": null,
+      "postcode": "5155",
       "state": "SA",
       "latitude": -34.9874238,
       "longitude": 138.7760601,
@@ -4179,7 +4179,7 @@
     {
       "id": 11155,
       "name": "Heathfield",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0276425,
       "longitude": 138.7249002,
@@ -4190,7 +4190,7 @@
     {
       "id": 11153,
       "name": "Bridgewater",
-      "postcode": null,
+      "postcode": "5155",
       "state": "SA",
       "latitude": -35.0093879,
       "longitude": 138.7623775,
@@ -4201,7 +4201,7 @@
     {
       "id": 12152,
       "name": "Chain Of Ponds",
-      "postcode": null,
+      "postcode": "5231",
       "state": "SA",
       "latitude": -34.8196833,
       "longitude": 138.8423771,
@@ -4212,7 +4212,7 @@
     {
       "id": 11425,
       "name": "Angle Vale",
-      "postcode": null,
+      "postcode": "5117",
       "state": "SA",
       "latitude": -34.6412198,
       "longitude": 138.6461526,
@@ -4223,7 +4223,7 @@
     {
       "id": 11900,
       "name": "Aberfoyle Park",
-      "postcode": null,
+      "postcode": "5159",
       "state": "SA",
       "latitude": -35.0705635,
       "longitude": 138.6011311,
@@ -4234,7 +4234,7 @@
     {
       "id": 11844,
       "name": "Ambulance Ground",
-      "postcode": null,
+      "postcode": "5155",
       "state": "SA",
       "latitude": -35.0037548,
       "longitude": 138.7775105,
@@ -4245,7 +4245,7 @@
     {
       "id": 11927,
       "name": "Munno Para Downs",
-      "postcode": null,
+      "postcode": "5115",
       "state": "SA",
       "latitude": -34.6474017,
       "longitude": 138.6860821,
@@ -4256,7 +4256,7 @@
     {
       "id": 11848,
       "name": "Uleybury",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.6749527,
       "longitude": 138.7451684,
@@ -4267,7 +4267,7 @@
     {
       "id": 11861,
       "name": "Trott Park",
-      "postcode": null,
+      "postcode": "5158",
       "state": "SA",
       "latitude": -35.071312,
       "longitude": 138.5401404,
@@ -4278,7 +4278,7 @@
     {
       "id": 11087,
       "name": "Happy Valley",
-      "postcode": null,
+      "postcode": "5159",
       "state": "SA",
       "latitude": -35.0765679,
       "longitude": 138.5757472,
@@ -4289,7 +4289,7 @@
     {
       "id": 12141,
       "name": "Port Gawler",
-      "postcode": null,
+      "postcode": "5501",
       "state": "SA",
       "latitude": -34.6536109,
       "longitude": 138.4523762,
@@ -4300,7 +4300,7 @@
     {
       "id": 11858,
       "name": "Hallett Cove",
-      "postcode": null,
+      "postcode": "5158",
       "state": "SA",
       "latitude": -35.0726467,
       "longitude": 138.5110652,
@@ -4311,7 +4311,7 @@
     {
       "id": 11865,
       "name": "Scott Creek",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0587698,
       "longitude": 138.7013733,
@@ -4322,7 +4322,7 @@
     {
       "id": 11995,
       "name": "Humbug Scrub",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.7209998,
       "longitude": 138.8143131,
@@ -4333,7 +4333,7 @@
     {
       "id": 11103,
       "name": "Sheidow Park",
-      "postcode": null,
+      "postcode": "5158",
       "state": "SA",
       "latitude": -35.0792116,
       "longitude": 138.5273915,
@@ -4344,7 +4344,7 @@
     {
       "id": 11392,
       "name": "Kersbrook",
-      "postcode": null,
+      "postcode": "5231",
       "state": "SA",
       "latitude": -34.7824379,
       "longitude": 138.8522407,
@@ -4355,7 +4355,7 @@
     {
       "id": 12030,
       "name": "Kudla",
-      "postcode": null,
+      "postcode": "5115",
       "state": "SA",
       "latitude": -34.6410135,
       "longitude": 138.7041414,
@@ -4366,7 +4366,7 @@
     {
       "id": 11990,
       "name": "Evanston South",
-      "postcode": null,
+      "postcode": "5116",
       "state": "SA",
       "latitude": -34.6480626,
       "longitude": 138.726043,
@@ -4377,7 +4377,7 @@
     {
       "id": 11819,
       "name": "Chandlers Hill",
-      "postcode": null,
+      "postcode": "5159",
       "state": "SA",
       "latitude": -35.086519,
       "longitude": 138.6170105,
@@ -4388,7 +4388,7 @@
     {
       "id": 11842,
       "name": "Mylor Park Lands",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0405139,
       "longitude": 138.7579599,
@@ -4399,7 +4399,7 @@
     {
       "id": 11815,
       "name": "Reynella East",
-      "postcode": null,
+      "postcode": "5161",
       "state": "SA",
       "latitude": -35.0880564,
       "longitude": 138.5527023,
@@ -4410,7 +4410,7 @@
     {
       "id": 11253,
       "name": "Bradbury",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.060311,
       "longitude": 138.7246899,
@@ -4421,7 +4421,7 @@
     {
       "id": 11154,
       "name": "Mylor",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0424606,
       "longitude": 138.7591513,
@@ -4432,7 +4432,7 @@
     {
       "id": 12095,
       "name": "Worthing Copper Mine",
-      "postcode": null,
+      "postcode": "5161",
       "state": "SA",
       "latitude": -35.0875757,
       "longitude": 138.5111493,
@@ -4443,7 +4443,7 @@
     {
       "id": 12000,
       "name": "Hillier",
-      "postcode": null,
+      "postcode": "5116",
       "state": "SA",
       "latitude": -34.6233776,
       "longitude": 138.6948904,
@@ -4454,7 +4454,7 @@
     {
       "id": 11920,
       "name": "Gawler River",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6102702,
       "longitude": 138.6477184,
@@ -4465,7 +4465,7 @@
     {
       "id": 11814,
       "name": "Old Reynella",
-      "postcode": null,
+      "postcode": "5161",
       "state": "SA",
       "latitude": -35.0968429,
       "longitude": 138.5404427,
@@ -4476,7 +4476,7 @@
     {
       "id": 11428,
       "name": "Lobethal",
-      "postcode": null,
+      "postcode": "5241",
       "state": "SA",
       "latitude": -34.9050605,
       "longitude": 138.8764755,
@@ -4487,7 +4487,7 @@
     {
       "id": 11847,
       "name": "Yattalunga",
-      "postcode": null,
+      "postcode": "5114",
       "state": "SA",
       "latitude": -34.680573,
       "longitude": 138.8005293,
@@ -4498,7 +4498,7 @@
     {
       "id": 11243,
       "name": "Reynella",
-      "postcode": null,
+      "postcode": "5161",
       "state": "SA",
       "latitude": -35.0965682,
       "longitude": 138.5216167,
@@ -4509,7 +4509,7 @@
     {
       "id": 11940,
       "name": "Evanston Gardens",
-      "postcode": null,
+      "postcode": "5116",
       "state": "SA",
       "latitude": -34.6281174,
       "longitude": 138.7199248,
@@ -4520,7 +4520,7 @@
     {
       "id": 11164,
       "name": "Woodcroft",
-      "postcode": null,
+      "postcode": "5162",
       "state": "SA",
       "latitude": -35.1032023,
       "longitude": 138.5624215,
@@ -4531,7 +4531,7 @@
     {
       "id": 11414,
       "name": "Gumeracha",
-      "postcode": null,
+      "postcode": "5233",
       "state": "SA",
       "latitude": -34.8222238,
       "longitude": 138.8866916,
@@ -4542,7 +4542,7 @@
     {
       "id": 11236,
       "name": "Oakbank",
-      "postcode": null,
+      "postcode": "5243",
       "state": "SA",
       "latitude": -34.9839126,
       "longitude": 138.8439764,
@@ -4553,7 +4553,7 @@
     {
       "id": 11843,
       "name": "Carl Nitschke Memorial Park",
-      "postcode": null,
+      "postcode": "5245",
       "state": "SA",
       "latitude": -35.0250062,
       "longitude": 138.8075781,
@@ -4564,7 +4564,7 @@
     {
       "id": 11396,
       "name": "Bibaringa",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6411763,
       "longitude": 138.7673197,
@@ -4575,7 +4575,7 @@
     {
       "id": 11060,
       "name": "Woodside",
-      "postcode": null,
+      "postcode": "5244",
       "state": "SA",
       "latitude": -34.951387,
       "longitude": 138.875857,
@@ -4586,7 +4586,7 @@
     {
       "id": 11746,
       "name": "Evanston Park",
-      "postcode": null,
+      "postcode": "5116",
       "state": "SA",
       "latitude": -34.6290775,
       "longitude": 138.7484014,
@@ -4597,7 +4597,7 @@
     {
       "id": 12023,
       "name": "Buchfelde",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6096631,
       "longitude": 138.7050211,
@@ -4608,7 +4608,7 @@
     {
       "id": 11813,
       "name": "Lonsdale",
-      "postcode": null,
+      "postcode": "5160",
       "state": "SA",
       "latitude": -35.1066033,
       "longitude": 138.4924173,
@@ -4619,7 +4619,7 @@
     {
       "id": 11970,
       "name": "Evanston",
-      "postcode": null,
+      "postcode": "5116",
       "state": "SA",
       "latitude": -34.6165803,
       "longitude": 138.7336913,
@@ -4630,7 +4630,7 @@
     {
       "id": 11393,
       "name": "Forreston",
-      "postcode": null,
+      "postcode": "5233",
       "state": "SA",
       "latitude": -34.7973407,
       "longitude": 138.8995428,
@@ -4641,7 +4641,7 @@
     {
       "id": 11639,
       "name": "The Knob",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6731039,
       "longitude": 138.8292821,
@@ -4652,7 +4652,7 @@
     {
       "id": 11091,
       "name": "Morphett Vale",
-      "postcode": null,
+      "postcode": "5162",
       "state": "SA",
       "latitude": -35.1207525,
       "longitude": 138.5239735,
@@ -4663,7 +4663,7 @@
     {
       "id": 11934,
       "name": "Dorset Vale",
-      "postcode": null,
+      "postcode": "5157",
       "state": "SA",
       "latitude": -35.1057566,
       "longitude": 138.7057829,
@@ -4674,7 +4674,7 @@
     {
       "id": 11864,
       "name": "Biggs Flat",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0726467,
       "longitude": 138.7815069,
@@ -4685,7 +4685,7 @@
     {
       "id": 12033,
       "name": "Barossa Goldfields",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6570284,
       "longitude": 138.8185148,
@@ -4696,7 +4696,7 @@
     {
       "id": 11863,
       "name": "Chapel Hill",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.0842607,
       "longitude": 138.7644777,
@@ -4707,7 +4707,7 @@
     {
       "id": 11977,
       "name": "Gawler West",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6043957,
       "longitude": 138.7340051,
@@ -4718,7 +4718,7 @@
     {
       "id": 11902,
       "name": "Gawler South",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6113607,
       "longitude": 138.7498301,
@@ -4729,7 +4729,7 @@
     {
       "id": 12009,
       "name": "Reid",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6010156,
       "longitude": 138.7295164,
@@ -4740,7 +4740,7 @@
     {
       "id": 11838,
       "name": "Paechtown",
-      "postcode": null,
+      "postcode": "5245",
       "state": "SA",
       "latitude": -35.0539394,
       "longitude": 138.8166197,
@@ -4751,7 +4751,7 @@
     {
       "id": 11996,
       "name": "Ward Belt",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5813993,
       "longitude": 138.673178,
@@ -4762,7 +4762,7 @@
     {
       "id": 11812,
       "name": "O'Sullivan Beach",
-      "postcode": null,
+      "postcode": "5166",
       "state": "SA",
       "latitude": -35.1191551,
       "longitude": 138.4746206,
@@ -4773,7 +4773,7 @@
     {
       "id": 11082,
       "name": "Christie Downs",
-      "postcode": null,
+      "postcode": "5164",
       "state": "SA",
       "latitude": -35.1272875,
       "longitude": 138.4969434,
@@ -4784,7 +4784,7 @@
     {
       "id": 11942,
       "name": "Kalbeeba",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6250198,
       "longitude": 138.7928903,
@@ -4795,7 +4795,7 @@
     {
       "id": 11836,
       "name": "Totness",
-      "postcode": null,
+      "postcode": "5250",
       "state": "SA",
       "latitude": -35.0475497,
       "longitude": 138.8432166,
@@ -4806,7 +4806,7 @@
     {
       "id": 11932,
       "name": "Gawler East",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.6026825,
       "longitude": 138.7644187,
@@ -4817,7 +4817,7 @@
     {
       "id": 11835,
       "name": "Mount Barker Junction",
-      "postcode": null,
+      "postcode": "5251",
       "state": "SA",
       "latitude": -35.0257354,
       "longitude": 138.8686091,
@@ -4828,7 +4828,7 @@
     {
       "id": 11261,
       "name": "Hackham West",
-      "postcode": null,
+      "postcode": "5163",
       "state": "SA",
       "latitude": -35.1419186,
       "longitude": 138.5158128,
@@ -4839,7 +4839,7 @@
     {
       "id": 11908,
       "name": "Willaston",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5863579,
       "longitude": 138.7411317,
@@ -4850,7 +4850,7 @@
     {
       "id": 12153,
       "name": "Hay Valley",
-      "postcode": null,
+      "postcode": "5252",
       "state": "SA",
       "latitude": -35.005683,
       "longitude": 138.8922485,
@@ -4861,7 +4861,7 @@
     {
       "id": 11634,
       "name": "Noarlunga Centre",
-      "postcode": null,
+      "postcode": "5168",
       "state": "SA",
       "latitude": -35.1412781,
       "longitude": 138.4954718,
@@ -4872,7 +4872,7 @@
     {
       "id": 11317,
       "name": "Whispering Wall",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6456,
       "longitude": 138.8483062,
@@ -4883,7 +4883,7 @@
     {
       "id": 11862,
       "name": "Jupiter Creek",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.1180261,
       "longitude": 138.7535369,
@@ -4894,7 +4894,7 @@
     {
       "id": 11083,
       "name": "Christies Beach",
-      "postcode": null,
+      "postcode": "5165",
       "state": "SA",
       "latitude": -35.1395801,
       "longitude": 138.4697587,
@@ -4905,7 +4905,7 @@
     {
       "id": 11839,
       "name": "Anembo Park",
-      "postcode": null,
+      "postcode": "5251",
       "state": "SA",
       "latitude": -35.0555181,
       "longitude": 138.8553884,
@@ -4916,7 +4916,7 @@
     {
       "id": 11092,
       "name": "Noarlunga Downs",
-      "postcode": null,
+      "postcode": "5168",
       "state": "SA",
       "latitude": -35.1478279,
       "longitude": 138.5019583,
@@ -4927,7 +4927,7 @@
     {
       "id": 12018,
       "name": "Gawler Belt",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.571978,
       "longitude": 138.7287909,
@@ -4938,7 +4938,7 @@
     {
       "id": 11909,
       "name": "Cockatoo Valley",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6284805,
       "longitude": 138.8343197,
@@ -4949,7 +4949,7 @@
     {
       "id": 11147,
       "name": "Littlehampton",
-      "postcode": null,
+      "postcode": "5250",
       "state": "SA",
       "latitude": -35.0482163,
       "longitude": 138.8658568,
@@ -4960,7 +4960,7 @@
     {
       "id": 11818,
       "name": "Huntfield Heights",
-      "postcode": null,
+      "postcode": "5163",
       "state": "SA",
       "latitude": -35.1522659,
       "longitude": 138.5123303,
@@ -4971,7 +4971,7 @@
     {
       "id": 11502,
       "name": "Echunga",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.1035857,
       "longitude": 138.7961057,
@@ -4982,7 +4982,7 @@
     {
       "id": 11938,
       "name": "Hewett",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5778217,
       "longitude": 138.7523997,
@@ -4993,7 +4993,7 @@
     {
       "id": 11966,
       "name": "Kangarilla",
-      "postcode": null,
+      "postcode": "5157",
       "state": "SA",
       "latitude": -35.1525869,
       "longitude": 138.6701524,
@@ -5004,7 +5004,7 @@
     {
       "id": 11078,
       "name": "Mount Barker",
-      "postcode": null,
+      "postcode": "5251",
       "state": "SA",
       "latitude": -35.0641302,
       "longitude": 138.8586385,
@@ -5015,7 +5015,7 @@
     {
       "id": 11394,
       "name": "Williamstown",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6717242,
       "longitude": 138.8905114,
@@ -5026,7 +5026,7 @@
     {
       "id": 11471,
       "name": "Mount Torrens",
-      "postcode": null,
+      "postcode": "5244",
       "state": "SA",
       "latitude": -34.873801,
       "longitude": 138.9599686,
@@ -5037,7 +5037,7 @@
     {
       "id": 11098,
       "name": "Port Noarlunga",
-      "postcode": null,
+      "postcode": "5167",
       "state": "SA",
       "latitude": -35.1500622,
       "longitude": 138.4698986,
@@ -5048,7 +5048,7 @@
     {
       "id": 11446,
       "name": "Reeves Plains",
-      "postcode": null,
+      "postcode": "5502",
       "state": "SA",
       "latitude": -34.539123,
       "longitude": 138.609234,
@@ -5059,7 +5059,7 @@
     {
       "id": 11837,
       "name": "Blakiston",
-      "postcode": null,
+      "postcode": "5250",
       "state": "SA",
       "latitude": -35.0416844,
       "longitude": 138.8861078,
@@ -5070,7 +5070,7 @@
     {
       "id": 12161,
       "name": "Onkaparinga Heights",
-      "postcode": null,
+      "postcode": "5163",
       "state": "SA",
       "latitude": -35.1623676,
       "longitude": 138.5199837,
@@ -5081,7 +5081,7 @@
     {
       "id": 11373,
       "name": "Birdwood",
-      "postcode": null,
+      "postcode": "5234",
       "state": "SA",
       "latitude": -34.8187997,
       "longitude": 138.9638545,
@@ -5092,7 +5092,7 @@
     {
       "id": 11445,
       "name": "Kangaroo Flat",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5489111,
       "longitude": 138.6933084,
@@ -5103,7 +5103,7 @@
     {
       "id": 11395,
       "name": "Sandy Creek",
-      "postcode": null,
+      "postcode": "5350",
       "state": "SA",
       "latitude": -34.6035943,
       "longitude": 138.8260729,
@@ -5114,7 +5114,7 @@
     {
       "id": 11948,
       "name": "Concordia",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5793389,
       "longitude": 138.7929359,
@@ -5125,7 +5125,7 @@
     {
       "id": 11248,
       "name": "Nairne",
-      "postcode": null,
+      "postcode": "5252",
       "state": "SA",
       "latitude": -35.0364036,
       "longitude": 138.9095876,
@@ -5136,7 +5136,7 @@
     {
       "id": 11099,
       "name": "Port Noarlunga South",
-      "postcode": null,
+      "postcode": "5167",
       "state": "SA",
       "latitude": -35.1661841,
       "longitude": 138.4686132,
@@ -5147,7 +5147,7 @@
     {
       "id": 11840,
       "name": "Alan Bell Park",
-      "postcode": null,
+      "postcode": "5250",
       "state": "SA",
       "latitude": -35.0653343,
       "longitude": 138.8897931,
@@ -5158,7 +5158,7 @@
     {
       "id": 12103,
       "name": "Seaford Meadows",
-      "postcode": null,
+      "postcode": "5169",
       "state": "SA",
       "latitude": -35.1747576,
       "longitude": 138.4837013,
@@ -5169,7 +5169,7 @@
     {
       "id": 11956,
       "name": "Cromer",
-      "postcode": null,
+      "postcode": "5235",
       "state": "SA",
       "latitude": -34.7660562,
       "longitude": 138.9765465,
@@ -5180,7 +5180,7 @@
     {
       "id": 11094,
       "name": "Old Noarlunga",
-      "postcode": null,
+      "postcode": "5168",
       "state": "SA",
       "latitude": -35.1827445,
       "longitude": 138.4997013,
@@ -5191,7 +5191,7 @@
     {
       "id": 11841,
       "name": "Flaxley",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.1385898,
       "longitude": 138.8182211,
@@ -5202,7 +5202,7 @@
     {
       "id": 11101,
       "name": "Seaford",
-      "postcode": null,
+      "postcode": "5169",
       "state": "SA",
       "latitude": -35.1868004,
       "longitude": 138.4770511,
@@ -5213,7 +5213,7 @@
     {
       "id": 12017,
       "name": "Kingsford",
-      "postcode": null,
+      "postcode": "5118",
       "state": "SA",
       "latitude": -34.5482016,
       "longitude": 138.7893739,
@@ -5224,7 +5224,7 @@
     {
       "id": 11982,
       "name": "Mount Crawford",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.7187445,
       "longitude": 138.9788639,
@@ -5235,7 +5235,7 @@
     {
       "id": 11834,
       "name": "Mount Barker Summit",
-      "postcode": null,
+      "postcode": "5251",
       "state": "SA",
       "latitude": -35.0692046,
       "longitude": 138.9215505,
@@ -5246,7 +5246,7 @@
     {
       "id": 11090,
       "name": "Moana",
-      "postcode": null,
+      "postcode": "5169",
       "state": "SA",
       "latitude": -35.1974742,
       "longitude": 138.4730721,
@@ -5257,7 +5257,7 @@
     {
       "id": 11100,
       "name": "Seaford Rise",
-      "postcode": null,
+      "postcode": "5169",
       "state": "SA",
       "latitude": -35.2009601,
       "longitude": 138.4866672,
@@ -5268,7 +5268,7 @@
     {
       "id": 12011,
       "name": "Green Hills Range",
-      "postcode": null,
+      "postcode": "5153",
       "state": "SA",
       "latitude": -35.1661475,
       "longitude": 138.8011488,
@@ -5279,7 +5279,7 @@
     {
       "id": 11833,
       "name": "Mount Barker Springs",
-      "postcode": null,
+      "postcode": "5251",
       "state": "SA",
       "latitude": -35.0910535,
       "longitude": 138.9197507,
@@ -5290,7 +5290,7 @@
     {
       "id": 11249,
       "name": "McLaren Vale",
-      "postcode": null,
+      "postcode": "5171",
       "state": "SA",
       "latitude": -35.2172617,
       "longitude": 138.5416998,
@@ -5301,7 +5301,7 @@
     {
       "id": 11484,
       "name": "Harrogate",
-      "postcode": null,
+      "postcode": "5244",
       "state": "SA",
       "latitude": -34.9503543,
       "longitude": 139.0129599,
@@ -5312,7 +5312,7 @@
     {
       "id": 12061,
       "name": "Seaside at Moana Estate",
-      "postcode": null,
+      "postcode": "5170",
       "state": "SA",
       "latitude": -35.2183462,
       "longitude": 138.4733706,
@@ -5323,7 +5323,7 @@
     {
       "id": 11357,
       "name": "Ochre Point",
-      "postcode": null,
+      "postcode": "5170",
       "state": "SA",
       "latitude": -35.2187486,
       "longitude": 138.468996,
@@ -5334,7 +5334,7 @@
     {
       "id": 11941,
       "name": "Pewsey Vale",
-      "postcode": null,
+      "postcode": "5351",
       "state": "SA",
       "latitude": -34.6368802,
       "longitude": 138.9701628,
@@ -5345,7 +5345,7 @@
     {
       "id": 11638,
       "name": "Maslin Beach",
-      "postcode": null,
+      "postcode": "5170",
       "state": "SA",
       "latitude": -35.2287818,
       "longitude": 138.477912,
@@ -5356,7 +5356,7 @@
     {
       "id": 11820,
       "name": "Nonedia",
-      "postcode": null,
+      "postcode": "5255",
       "state": "SA",
       "latitude": -35.1534419,
       "longitude": 138.878624,
@@ -5367,7 +5367,7 @@
     {
       "id": 11817,
       "name": "Tatachilla",
-      "postcode": null,
+      "postcode": "5171",
       "state": "SA",
       "latitude": -35.2346342,
       "longitude": 138.5093688,
@@ -5378,7 +5378,7 @@
     {
       "id": 11397,
       "name": "Mount Pleasant",
-      "postcode": null,
+      "postcode": "5235",
       "state": "SA",
       "latitude": -34.7755477,
       "longitude": 139.0479358,
@@ -5389,7 +5389,7 @@
     {
       "id": 11832,
       "name": "Petwood",
-      "postcode": null,
+      "postcode": "5252",
       "state": "SA",
       "latitude": -35.0864138,
       "longitude": 138.9654636,
@@ -5400,7 +5400,7 @@
     {
       "id": 12146,
       "name": "Tungkillo",
-      "postcode": null,
+      "postcode": "5236",
       "state": "SA",
       "latitude": -34.8661753,
       "longitude": 139.0648211,
@@ -5411,7 +5411,7 @@
     {
       "id": 11298,
       "name": "Blanche Point",
-      "postcode": null,
+      "postcode": "5173",
       "state": "SA",
       "latitude": -35.2460925,
       "longitude": 138.4628392,
@@ -5422,7 +5422,7 @@
     {
       "id": 11926,
       "name": "Paris Creek",
-      "postcode": null,
+      "postcode": "5201",
       "state": "SA",
       "latitude": -35.2184871,
       "longitude": 138.8002074,
@@ -5433,7 +5433,7 @@
     {
       "id": 11916,
       "name": "Gomersal",
-      "postcode": null,
+      "postcode": "5352",
       "state": "SA",
       "latitude": -34.534868,
       "longitude": 138.8973945,
@@ -5444,7 +5444,7 @@
     {
       "id": 11811,
       "name": "Gemmells",
-      "postcode": null,
+      "postcode": "5255",
       "state": "SA",
       "latitude": -35.1785947,
       "longitude": 138.8952101,
@@ -5455,7 +5455,7 @@
     {
       "id": 11830,
       "name": "St Ives",
-      "postcode": null,
+      "postcode": "5252",
       "state": "SA",
       "latitude": -35.110325,
       "longitude": 138.9799261,
@@ -5466,7 +5466,7 @@
     {
       "id": 12043,
       "name": "Port Willunga",
-      "postcode": null,
+      "postcode": "5173",
       "state": "SA",
       "latitude": -35.257101,
       "longitude": 138.4644573,
@@ -5477,7 +5477,7 @@
     {
       "id": 11402,
       "name": "Mallala",
-      "postcode": null,
+      "postcode": "5502",
       "state": "SA",
       "latitude": -34.4376942,
       "longitude": 138.5103239,
@@ -5488,7 +5488,7 @@
     {
       "id": 11250,
       "name": "Willunga",
-      "postcode": null,
+      "postcode": "5172",
       "state": "SA",
       "latitude": -35.2711681,
       "longitude": 138.5554231,
@@ -5499,7 +5499,7 @@
     {
       "id": 11646,
       "name": "Aldinga",
-      "postcode": null,
+      "postcode": "5173",
       "state": "SA",
       "latitude": -35.2673234,
       "longitude": 138.4831296,
@@ -5510,7 +5510,7 @@
     {
       "id": 11999,
       "name": "Highland Valley",
-      "postcode": null,
+      "postcode": "5255",
       "state": "SA",
       "latitude": -35.1674938,
       "longitude": 138.9299083,
@@ -5521,7 +5521,7 @@
     {
       "id": 11985,
       "name": "Krondorf",
-      "postcode": null,
+      "postcode": "5352",
       "state": "SA",
       "latitude": -34.5658027,
       "longitude": 138.970474,
@@ -5532,7 +5532,7 @@
     {
       "id": 11664,
       "name": "Magdala",
-      "postcode": null,
+      "postcode": "5400",
       "state": "SA",
       "latitude": -34.4232061,
       "longitude": 138.6999364,
@@ -5543,7 +5543,7 @@
     {
       "id": 11507,
       "name": "Aldinga Beach",
-      "postcode": null,
+      "postcode": "5173",
       "state": "SA",
       "latitude": -35.279293,
       "longitude": 138.4604028,
@@ -5554,7 +5554,7 @@
     {
       "id": 11490,
       "name": "Springton",
-      "postcode": null,
+      "postcode": "5235",
       "state": "SA",
       "latitude": -34.7070453,
       "longitude": 139.0893592,
@@ -5565,7 +5565,7 @@
     {
       "id": 11399,
       "name": "Freeling",
-      "postcode": null,
+      "postcode": "5372",
       "state": "SA",
       "latitude": -34.4523377,
       "longitude": 138.8131911,
@@ -5576,7 +5576,7 @@
     {
       "id": 11969,
       "name": "Red Creek",
-      "postcode": null,
+      "postcode": "5255",
       "state": "SA",
       "latitude": -35.1492403,
       "longitude": 138.9809132,
@@ -5587,7 +5587,7 @@
     {
       "id": 12021,
       "name": "Flaxman Valley",
-      "postcode": null,
+      "postcode": "5235",
       "state": "SA",
       "latitude": -34.619771,
       "longitude": 139.0409732,
@@ -5598,7 +5598,7 @@
     {
       "id": 11426,
       "name": "Dublin",
-      "postcode": null,
+      "postcode": "5501",
       "state": "SA",
       "latitude": -34.4513918,
       "longitude": 138.3497395,
@@ -5609,7 +5609,7 @@
     {
       "id": 11569,
       "name": "Seppeltsfield",
-      "postcode": null,
+      "postcode": "5355",
       "state": "SA",
       "latitude": -34.495628,
       "longitude": 138.9063794,
@@ -5620,7 +5620,7 @@
     {
       "id": 12010,
       "name": "Taunton",
-      "postcode": null,
+      "postcode": "5235",
       "state": "SA",
       "latitude": -34.6870685,
       "longitude": 139.0896794,

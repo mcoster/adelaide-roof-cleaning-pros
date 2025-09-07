@@ -163,6 +163,28 @@ export async function closePool(): Promise<void> {
 }
 
 /**
+ * Get suburbs by name
+ */
+export async function getSuburbsByName(names: string[]): Promise<SuburbWithPopulation[]> {
+  const suburbs = loadSuburbs();
+  
+  const lowerNames = names.map(n => n.toLowerCase());
+  
+  const found = suburbs.filter(suburb => 
+    lowerNames.includes(suburb.name.toLowerCase())
+  );
+  
+  // Map to include population fields
+  return found.map(suburb => ({
+    ...suburb,
+    population: (suburbsData.suburbs.find(s => s.id === suburb.id) as any)?.population || undefined,
+    populationDensity: undefined,
+    households: undefined,
+    medianAge: undefined,
+  }));
+}
+
+/**
  * Geocode placeholder - returns Adelaide CBD coordinates
  */
 export async function geocodeAddress(address: string): Promise<{ lat: number; lng: number } | null> {

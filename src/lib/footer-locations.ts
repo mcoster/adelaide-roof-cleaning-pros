@@ -210,23 +210,27 @@ export async function getFooterLocations(): Promise<FooterLocationData[]> {
     console.log(`getSuburbsWithPopulation returned ${allSuburbs.length} suburbs`);
     
     if (allSuburbs.length === 0) {
-      console.warn('No suburbs found for footer selection. Using default suburbs.');
-      // Use hardcoded default suburbs when database is not available
-      const defaultSuburbs: SuburbWithPopulation[] = [
-        { id: 1, name: 'Adelaide', postcode: '5000', state: 'SA', latitude: -34.9285, longitude: 138.6007, distanceKm: 0, direction: 'N', population: 24783, density: 3142, households: 12571, medianAge: 28 },
-        { id: 2, name: 'North Adelaide', postcode: '5006', state: 'SA', latitude: -34.9065, longitude: 138.5930, distanceKm: 2.5, direction: 'N', population: 5988, density: 1843, households: 3124, medianAge: 37 },
-        { id: 3, name: 'Prospect', postcode: '5082', state: 'SA', latitude: -34.8833, longitude: 138.5945, distanceKm: 5.1, direction: 'N', population: 21196, density: 2677, households: 9433, medianAge: 36 },
-        { id: 4, name: 'Glenelg', postcode: '5045', state: 'SA', latitude: -34.9799, longitude: 138.5156, distanceKm: 11.2, direction: 'SW', population: 3349, density: 3571, households: 1744, medianAge: 44 },
-        { id: 5, name: 'Henley Beach', postcode: '5022', state: 'SA', latitude: -34.9166, longitude: 138.4931, distanceKm: 11.5, direction: 'W', population: 7247, density: 2415, households: 3275, medianAge: 39 },
-        { id: 6, name: 'Port Adelaide', postcode: '5015', state: 'SA', latitude: -34.8477, longitude: 138.5016, distanceKm: 14.1, direction: 'NW', population: 1230, density: 446, households: 615, medianAge: 37 },
-        { id: 7, name: 'Modbury Heights', postcode: '5092', state: 'SA', latitude: -34.8308, longitude: 138.6939, distanceKm: 13.3, direction: 'NE', population: 5686, density: 1621, households: 2205, medianAge: 40 },
-        { id: 8, name: 'Aberfoyle Park', postcode: '5159', state: 'SA', latitude: -35.0675, longitude: 138.5964, distanceKm: 15.4, direction: 'S', population: 11719, density: 1537, households: 4371, medianAge: 38 },
-        { id: 9, name: 'Happy Valley', postcode: '5159', state: 'SA', latitude: -35.0833, longitude: 138.5633, distanceKm: 17.6, direction: 'S', population: 8943, density: 1107, households: 3327, medianAge: 41 },
-        { id: 10, name: 'Parafield Gardens', postcode: '5107', state: 'SA', latitude: -34.7833, longitude: 138.6167, distanceKm: 16.2, direction: 'N', population: 16280, density: 1628, households: 5798, medianAge: 33 },
-        { id: 11, name: 'Redwood Park', postcode: '5097', state: 'SA', latitude: -34.8000, longitude: 138.7167, distanceKm: 16.7, direction: 'NE', population: 3941, density: 1109, households: 1478, medianAge: 39 }
+      console.warn('No suburbs found for footer selection. Using default suburb names.');
+      // Try to get the default suburbs from the static data
+      const defaultSuburbNames = [
+        'Adelaide', 'North Adelaide', 'Prospect', 'Glenelg', 
+        'Henley Beach', 'Port Adelaide', 'Modbury Heights', 
+        'Aberfoyle Park', 'Happy Valley', 'Parafield Gardens', 'Redwood Park'
       ];
       
-      return defaultSuburbs.map(suburb => ({
+      const defaultSuburbs = await getSuburbsByName(defaultSuburbNames);
+      
+      if (defaultSuburbs.length === 0) {
+        console.error('Could not load any default suburbs from static data');
+        return [];
+      }
+      
+      // Add distance and direction for default suburbs
+      const suburbsWithDistance = defaultSuburbs.map(suburb => 
+        calculateDistanceAndDirection(suburb, center.lat, center.lng)
+      );
+      
+      return suburbsWithDistance.slice(0, 11).map(suburb => ({
         suburb,
         slug: generateLocationSlug(suburb),
         url: generateLocationUrl(suburb)

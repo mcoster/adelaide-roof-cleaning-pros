@@ -56,7 +56,7 @@ async function exportSuburbs() {
       SELECT 
         s.id,
         s.name,
-        NULL as postcode,
+        sp.postcode,
         s.state,
         s.latitude,
         s.longitude,
@@ -75,6 +75,7 @@ async function exportSuburbs() {
         s.population
       FROM suburbs s
       CROSS JOIN center c
+      LEFT JOIN suburb_postcodes sp ON s.id = sp.suburb_id AND sp.is_primary = true
       WHERE s.state = 'SA'
         AND ST_DWithin(s.location, c.point, $3 * 1000)
       ORDER BY distance_km ASC
