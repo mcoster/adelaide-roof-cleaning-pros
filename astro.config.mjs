@@ -30,8 +30,7 @@ const shortcodeValues = {
 // https://astro.build/config
 export default defineConfig({
   // Site URL is required for sitemap generation
-  // This should be updated to the actual production URL
-  site: 'https://yourdomain.com',
+  site: 'https://adelaide-roof-cleaning-pros.netlify.app',
   integrations: [sitemap()],
   markdown: {
     remarkPlugins: [
