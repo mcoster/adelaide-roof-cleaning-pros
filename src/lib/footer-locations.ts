@@ -166,10 +166,10 @@ function smartSelectLocations(
 export async function getFooterLocations(): Promise<FooterLocationData[]> {
   try {
     const center = await getCenterLocation();
-    const radiusKm = siteConfig.locationPages.serviceRadiusKm;
+    const radiusKm = siteConfig.locationPages?.serviceRadiusKm || 50;
     
     // Check for manual selection
-    const manualSuburbs = siteConfig.locationPages.footerFeaturedSuburbs;
+    const manualSuburbs = siteConfig.locationPages?.footerFeaturedSuburbs;
     
     if (manualSuburbs && manualSuburbs.length > 0) {
       console.log(`Using manual footer suburbs: ${manualSuburbs.join(', ')}`);
@@ -243,6 +243,24 @@ export async function getFooterLocations(): Promise<FooterLocationData[]> {
     
     const selectedSuburbs = smartSelectLocations(allSuburbs, 11);
     
+    // If we still have no suburbs, use a minimal fallback
+    if (selectedSuburbs.length === 0) {
+      console.warn('Smart selection returned no suburbs, using minimal fallback');
+      const fallbackSuburbs: SuburbWithPopulation[] = [
+        { id: 1, name: 'North Adelaide', postcode: '5006', state: 'SA', latitude: -34.9065, longitude: 138.5930, distanceKm: 2.5, direction: 'N' },
+        { id: 2, name: 'Prospect', postcode: '5082', state: 'SA', latitude: -34.8833, longitude: 138.5945, distanceKm: 5.1, direction: 'N' },
+        { id: 3, name: 'Glenelg', postcode: '5045', state: 'SA', latitude: -34.9799, longitude: 138.5156, distanceKm: 11.2, direction: 'SW' },
+        { id: 4, name: 'Henley Beach', postcode: '5022', state: 'SA', latitude: -34.9166, longitude: 138.4931, distanceKm: 11.5, direction: 'W' },
+        { id: 5, name: 'Port Adelaide', postcode: '5015', state: 'SA', latitude: -34.8477, longitude: 138.5016, distanceKm: 14.1, direction: 'NW' },
+      ];
+      
+      return fallbackSuburbs.map(suburb => ({
+        suburb,
+        slug: generateLocationSlug(suburb),
+        url: generateLocationUrl(suburb)
+      }));
+    }
+    
     return selectedSuburbs.map(suburb => ({
       suburb,
       slug: generateLocationSlug(suburb),
@@ -250,7 +268,18 @@ export async function getFooterLocations(): Promise<FooterLocationData[]> {
     }));
   } catch (error) {
     console.error('Error getting footer locations:', error);
-    return [];
+    // Return minimal fallback on error
+    const fallbackSuburbs: SuburbWithPopulation[] = [
+      { id: 1, name: 'North Adelaide', postcode: '5006', state: 'SA', latitude: -34.9065, longitude: 138.5930, distanceKm: 2.5, direction: 'N' },
+      { id: 2, name: 'Prospect', postcode: '5082', state: 'SA', latitude: -34.8833, longitude: 138.5945, distanceKm: 5.1, direction: 'N' },
+      { id: 3, name: 'Glenelg', postcode: '5045', state: 'SA', latitude: -34.9799, longitude: 138.5156, distanceKm: 11.2, direction: 'SW' },
+    ];
+    
+    return fallbackSuburbs.map(suburb => ({
+      suburb,
+      slug: generateLocationSlug(suburb),
+      url: generateLocationUrl(suburb)
+    }));
   }
 }
 
