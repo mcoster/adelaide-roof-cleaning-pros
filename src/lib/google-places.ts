@@ -154,6 +154,19 @@ export async function getMapEmbedConfig() {
 }
 
 /**
+ * Cached version of getMapEmbedConfig
+ * This ensures the configuration is only computed once during the build process
+ */
+let cachedMapConfig: Awaited<ReturnType<typeof getMapEmbedConfig>> | null = null;
+
+export async function getCachedMapEmbedConfig() {
+  if (cachedMapConfig === null) {
+    cachedMapConfig = await getMapEmbedConfig();
+  }
+  return cachedMapConfig;
+}
+
+/**
  * Generate the iframe URL based on the embed configuration
  */
 export function generateEmbedUrl(config: Awaited<ReturnType<typeof getMapEmbedConfig>>): string {
