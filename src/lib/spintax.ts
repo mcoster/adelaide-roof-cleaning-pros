@@ -29,25 +29,55 @@ export class LocationSpintax {
     
     // Step 2: Process spintax
     try {
-      const spinner = new Spinner(processed);
-      
-      // Step 3: Generate variation (seeded for consistency)
+      // Create a seeded random number generator for consistent results
       if (this.seed) {
-        // Use seed to select consistent variation per location
-        const variations = spinner.unspinAll();
-        if (variations.length === 0) {
-          return processed; // Return as-is if no spintax found
-        }
-        const index = this.hashCode(this.seed) % variations.length;
-        return variations[index];
+        const seedHash = this.hashCode(this.seed);
+        // Use a deterministic but efficient approach
+        // Process each spintax pattern individually with seeded randomness
+        processed = this.processSpintaxWithSeed(processed, seedHash);
+        return processed;
       }
       
+      // For non-seeded, just use random selection
+      const spinner = new Spinner(processed);
       return spinner.unspinRandom();
     } catch (error) {
       console.warn('Spintax parsing error:', error);
       // Return with placeholders replaced but no spintax processing
       return processed;
     }
+  }
+  
+  /**
+   * Process spintax patterns with a deterministic seed
+   * This is much more efficient than generating all variations
+   */
+  private processSpintaxWithSeed(text: string, seed: number): string {
+    // Process nested spintax from innermost to outermost
+    let iterations = 0;
+    const maxIterations = 100; // Prevent infinite loops
+    
+    while (text.includes('{') && text.includes('|') && iterations < maxIterations) {
+      iterations++;
+      
+      // Find the innermost spintax pattern
+      const regex = /\{([^{}]*\|[^{}]*)\}/;
+      const match = text.match(regex);
+      
+      if (!match) break;
+      
+      const fullMatch = match[0];
+      const options = match[1].split('|');
+      
+      // Use seed to select an option deterministically
+      const index = Math.abs((seed + iterations) * 2654435761) % options.length;
+      const selected = options[index];
+      
+      // Replace this spintax pattern with the selected option
+      text = text.replace(fullMatch, selected);
+    }
+    
+    return text;
   }
   
   /**
