@@ -24,15 +24,11 @@ const lastUpdated = termsEntry.data.lastUpdated
       month: 'long', 
       day: 'numeric' 
     });
-
-// Process description shortcodes
-const processedDescription = termsEntry.data.description
-  .replace(/{{businessName}}/g, siteConfig.businessName);
 ---
 
 <Layout 
   title={termsEntry.data.title}
-  description={processedDescription}
+  description={termsEntry.data.description}
   noindex={termsEntry.data.noindex}
 >
   <Header />

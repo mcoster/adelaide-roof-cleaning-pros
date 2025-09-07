@@ -1,4 +1,25 @@
 import { defineCollection, z } from 'astro:content';
+import { getTemplateVariables } from '@/lib/config-loader';
+
+// Get template variables for processing
+const templateVars = getTemplateVariables();
+
+/**
+ * Process template variables in a string
+ */
+function processTemplate(str: string): string {
+  if (!str) return str;
+  
+  let processed = str;
+  Object.entries(templateVars).forEach(([key, value]) => {
+    if (value !== undefined && value !== null) {
+      const regex = new RegExp(`{{${key}}}`, 'g');
+      processed = processed.replace(regex, String(value));
+    }
+  });
+  
+  return processed;
+}
 
 /**
  * Homepage Collection Schema
@@ -31,8 +52,8 @@ const servicesCollection = defineCollection({
   schema: z.object({
     // Required fields
     title: z.string(),
-    description: z.string(), // Full description for SEO and service page
-    excerpt: z.string(), // Short description for service cards (50-160 chars recommended)
+    description: z.string().transform(processTemplate), // Full description for SEO and service page
+    excerpt: z.string().transform(processTemplate), // Short description for service cards (50-160 chars recommended)
     
     // Optional fields
     image: z.string().optional(), // Hero image for the service page
@@ -42,8 +63,8 @@ const servicesCollection = defineCollection({
     
     // SEO fields (optional)
     seo: z.object({
-      title: z.string().optional(), // Override page title
-      description: z.string().optional(), // Override meta description
+      title: z.string().optional().transform(str => str ? processTemplate(str) : str), // Override page title
+      description: z.string().optional().transform(str => str ? processTemplate(str) : str), // Override meta description
     }).optional(),
   }),
 });
@@ -140,7 +161,7 @@ const legalCollection = defineCollection({
   schema: z.object({
     // Required fields
     title: z.string(),
-    description: z.string(), // SEO meta description
+    description: z.string().transform(processTemplate), // SEO meta description
     
     // Optional fields
     lastUpdated: z.date().optional(), // Manual last updated date (auto-generated if not provided)

@@ -25,14 +25,11 @@ const lastUpdated = privacyEntry.data.lastUpdated
       day: 'numeric' 
     });
 
-// Process description shortcodes
-const processedDescription = privacyEntry.data.description
-  .replace(/{{businessName}}/g, siteConfig.businessName);
 ---
 
 <Layout 
   title={privacyEntry.data.title}
-  description={processedDescription}
+  description={privacyEntry.data.description}
   noindex={privacyEntry.data.noindex}
 >
   <Header />
