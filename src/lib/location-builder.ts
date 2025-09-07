@@ -3,9 +3,22 @@
  * Handles build-time generation of location pages
  */
 
-import { getSuburbsWithinRadius, getNearbySuburbs, geocodeAddress } from './locations';
+// Use static suburbs data if database is not configured or is localhost
+import * as staticSuburbs from './static-suburbs';
+import * as dynamicSuburbs from './locations';
 import { siteConfig } from '../config/site';
 import type { Suburb } from './locations';
+
+// Check if we should use static data
+const useStaticData = !import.meta.env.POSTGIS_HOST || 
+                      import.meta.env.POSTGIS_HOST === 'localhost' ||
+                      import.meta.env.USE_STATIC_SUBURBS === 'true';
+
+// Select the appropriate module
+const suburbsModule = useStaticData ? staticSuburbs : dynamicSuburbs;
+const { getSuburbsWithinRadius, getNearbySuburbs, geocodeAddress } = suburbsModule;
+
+console.log(`Using ${useStaticData ? 'static JSON' : 'PostGIS database'} for suburb data`);
 
 export interface LocationPageData {
   suburb: Suburb;
@@ -16,7 +29,7 @@ export interface LocationPageData {
 
 /**
  * Get the center location for service area
- * Uses env variables if set, otherwise geocodes business address
+ * Uses env variables if set, otherwise uses center from JSON data or geocodes address
  */
 export async function getCenterLocation(): Promise<{ lat: number; lng: number }> {
   // Check for explicit center coordinates in env
@@ -28,6 +41,18 @@ export async function getCenterLocation(): Promise<{ lat: number; lng: number }>
       lat: parseFloat(envLat),
       lng: parseFloat(envLng)
     };
+  }
+  
+  // If using static data, use the center from the JSON file
+  if (useStaticData) {
+    try {
+      const suburbsData = await import('../data/suburbs.json');
+      if (suburbsData.default?.center) {
+        return suburbsData.default.center;
+      }
+    } catch (error) {
+      console.warn('Could not load center from suburbs.json:', error);
+    }
   }
   
   // Otherwise, geocode the business address
