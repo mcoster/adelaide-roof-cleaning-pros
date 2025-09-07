@@ -64,7 +64,6 @@ service:
   main_category: "Roof Cleaning"
   main_location: "Adelaide"
   radius_km: 50  # Service area radius
-  max_location_pages: 100  # Limit for performance
   # Optional: Override center location (defaults to business address)
   # center_lat: -34.9285
   # center_lng: 138.6007
@@ -121,6 +120,10 @@ POSTGIS_PORT="5432"
 POSTGIS_DATABASE="au_suburbs_db"
 POSTGIS_USER="suburbs_user"
 POSTGIS_PASSWORD="your-password-here"
+
+# Maximum number of location pages to generate (default: 100)
+# Note: Each page takes ~10 seconds to build
+MAX_LOCATION_PAGES="100"
 
 # Google Maps API Key (optional)
 PUBLIC_GOOGLE_MAPS_API_KEY="your-api-key"
@@ -1099,8 +1102,15 @@ The template includes fully functional dynamic location-specific landing pages p
 - ✅ **Footer Location Links**: Smart selection with population-based prioritization
 - ✅ **Google Maps Integration**: Embedded maps with API key support
 
-### PostGIS Database Configuration
-Add these settings to your `.env` file to enable location pages:
+### Location Pages Configuration
+
+The template now includes **static JSON suburb data** for location pages, eliminating the need for PostGIS database access during deployment. Location pages work automatically on platforms like Netlify.
+
+#### Using Static JSON Data (Default - No Setup Required)
+Location pages are automatically generated using the pre-exported `src/data/suburbs.json` file containing 511 suburbs within 50km of Adelaide. No database configuration needed!
+
+#### Optional: Using Live PostGIS Database
+If you want to use a live PostGIS database instead of static data, add these settings to your `.env` file:
 
 ```bash
 # Service radius for location page generation (in kilometers)
@@ -1118,7 +1128,12 @@ PUBLIC_MAIN_LOCATION="Adelaide"
 # Example: "North Adelaide,Glenelg,Norwood,Unley,Prospect,Burnside"
 FOOTER_FEATURED_SUBURBS=""
 
-# PostGIS Database Connection
+# Maximum number of location pages to generate (default: 100)
+# Note: Each page takes ~10 seconds to build due to Google Maps iframe processing
+# 100 pages = ~17 minutes, 500 pages = ~85 minutes
+MAX_LOCATION_PAGES="100"
+
+# PostGIS Database Connection (Optional - only needed if not using static JSON data)
 # Option 1: Connection string
 # POSTGIS_CONNECTION_STRING="postgresql://user:password@localhost:5432/suburbs_db"
 
@@ -1152,10 +1167,24 @@ Configure Google Maps embed in the footer:
 # PUBLIC_GOOGLE_MAPS_API_KEY=""
 ```
 
-### Database Requirements
-Your PostGIS database needs:
+### Updating Suburb Data
+
+#### Option 1: Using Static JSON (Recommended)
+The template includes pre-exported suburb data in `src/data/suburbs.json`. To update this data:
+
+```bash
+# 1. Ensure PostGIS database is running locally
+# 2. Update center coordinates in scripts/export-suburbs.ts if needed
+# 3. Run the export script
+npx tsx scripts/export-suburbs.ts
+```
+
+This will regenerate `src/data/suburbs.json` with the latest suburb data.
+
+#### Option 2: Using Live PostGIS Database
+If using a PostGIS database, it needs:
 - **suburbs** table with columns: id, name, state, latitude, longitude, location (geometry)
-- **suburb_postcodes** table with columns: suburb_id, postcode, is_primary
+- **suburb_postcodes** table with columns: suburb_id, postcode, is_primary (optional)
 - PostGIS extension enabled
 - Spatial index on geometry column
 
@@ -1182,7 +1211,12 @@ Location pages use Spintax patterns to generate unique content:
 
 ### Testing Location Features
 
-Test PostGIS connection:
+Export/update suburb data from PostGIS:
+```bash
+npx tsx scripts/export-suburbs.ts
+```
+
+Test PostGIS connection (if using database):
 ```bash
 npx tsx test-postgis.ts
 ```
