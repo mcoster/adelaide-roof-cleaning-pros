@@ -52,9 +52,12 @@ function calculateDistanceAndDirection(
 function scoreSuburb(suburb: SuburbWithPopulation): number {
   let score = 0;
   
-  // Population score (higher population = higher score)
+  // Population score (higher population = higher score) - make optional
   if (suburb.population) {
     score += Math.min(suburb.population / 100, 100); // Cap at 100 points
+  } else {
+    // Give a default score for suburbs without population data
+    score += 25; // Default score for missing population
   }
   
   // Distance score (closer = higher, but not too close to avoid clustering)
@@ -70,7 +73,7 @@ function scoreSuburb(suburb: SuburbWithPopulation): number {
     score += 20; // Outer areas
   }
   
-  // Population density bonus (urban areas)
+  // Population density bonus (urban areas) - make optional
   if (suburb.populationDensity && suburb.populationDensity > 1000) {
     score += 20;
   }
@@ -206,10 +209,11 @@ export async function getFooterLocations(): Promise<FooterLocationData[]> {
     
     // Use smart selection
     console.log('Using smart selection for footer suburbs');
+    console.log(`Center: ${center.lat}, ${center.lng}, Radius: ${radiusKm}km`);
     const allSuburbs = await getSuburbsWithPopulation(center.lat, center.lng, radiusKm);
     console.log(`getSuburbsWithPopulation returned ${allSuburbs.length} suburbs`);
     
-    if (allSuburbs.length === 0) {
+    if (!allSuburbs || allSuburbs.length === 0) {
       console.warn('No suburbs found for footer selection. Using default suburb names.');
       // Try to get the default suburbs from the static data
       const defaultSuburbNames = [
