@@ -89,13 +89,9 @@ export class TemplateProcessor {
       computed.formattedPhone = computed.phone.replace(/\D/g, '');
     }
     
-    // Default governing state/city to business location
-    if (!computed.governingState && computed.state) {
-      computed.governingState = computed.state;
-    }
-    if (!computed.governingCity && computed.city) {
-      computed.governingCity = computed.city;
-    }
+    // Legal jurisdiction is always Queensland (where Web and Glow Pty Ltd is registered)
+    computed.governingState = 'Queensland';
+    computed.governingCity = 'Brisbane';
     
     return computed;
   }

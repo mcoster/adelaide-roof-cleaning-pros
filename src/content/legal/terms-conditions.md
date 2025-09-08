@@ -311,7 +311,7 @@ If we cannot resolve the dispute directly:
 
 ### 12.3 Governing Law
 
-These Terms are governed by the laws of {{governingState}}, Australia. You submit to the non-exclusive jurisdiction of the courts of {{governingState}} and the Federal Court of Australia.
+These Terms are governed by the laws of Queensland, Australia. You submit to the non-exclusive jurisdiction of the courts of Queensland and the Federal Court of Australia.
 
 ## 13. General Provisions
 

@@ -192,6 +192,10 @@ Use these variables in any YAML content field or Markdown files. They are automa
 - `{{serviceDescription}}` - Service description
 - `{{serviceSlug}}` - Service URL slug
 
+**Legal Variables (Fixed - Queensland registration):**
+- `{{governingState}}` - Always "Queensland" (company registration)
+- `{{governingCity}}` - Always "Brisbane" (company registration)
+
 **Location Variables (calculated dynamically):**
 - `{{distance}}` - Distance from main location
 - `{{direction}}` - Compass direction from main location
@@ -834,21 +838,12 @@ These tokens are automatically replaced with values from `/src/config/site.ts`:
 | `{{postcode}}` | Postal code | 5000 |
 
 ### Jurisdiction Settings (Terms & Conditions)
-The Terms & Conditions page has special tokens for legal jurisdiction:
+**IMPORTANT:** Legal jurisdiction is always Queensland/Brisbane as Web and Glow Pty Ltd is registered in Queensland.
 
-```yaml
----
-title: "Terms & Conditions"
-description: "Terms & Conditions for {{businessName}}"
-noindex: true
-replacements:
-  governingState: "{{state}}"    # Can override to different state
-  governingCity: "{{city}}"      # Can override to different city
----
-```
+The Terms & Conditions automatically use Queensland as the governing jurisdiction:
+> "These Terms are governed by the laws of Queensland, Australia."
 
-These tokens (`{{governingState}}` and `{{governingCity}}`) are used in legal clauses like:
-> "These Terms are governed by the laws of {{governingState}}, Australia."
+This is hardcoded and cannot be changed, regardless of where the service is provided, because the company (Web and Glow Pty Ltd) that owns all websites is registered in Queensland.
 
 ### Customizing Legal Content
 

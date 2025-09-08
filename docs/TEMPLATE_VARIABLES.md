@@ -37,8 +37,11 @@ All variables are derived from `config/business.yaml`. Here are the most commonl
 ### Service Information
 - `{{mainServiceCategory}}` - Main service type (e.g., "Roof Cleaning")
 - `{{serviceRadius}}` - Service area radius in km
-- `{{governingState}}` - Legal jurisdiction state
-- `{{governingCity}}` - Legal jurisdiction city
+
+### Legal Jurisdiction (Fixed)
+**Note:** Legal jurisdiction is always Queensland/Brisbane as Web and Glow Pty Ltd is registered in Queensland.
+- `{{governingState}}` - Always returns "Queensland" (company registration state)
+- `{{governingCity}}` - Always returns "Brisbane" (company registration city)
 
 ### Business Hours
 - `{{hoursMonday}}` through `{{hoursSunday}}` - Daily business hours

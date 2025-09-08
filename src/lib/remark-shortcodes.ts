@@ -39,8 +39,9 @@ const DEFAULT_VALUES: ShortcodeValues = {
   state: 'Your State',
   postcode: '0000',
   mainLocation: 'Your City, Your State 0000',
-  governingState: 'Your State',
-  governingCity: 'Your City',
+  // Legal jurisdiction is always Queensland (where Web and Glow Pty Ltd is registered)
+  governingState: 'Queensland',
+  governingCity: 'Brisbane',
   serviceRadius: '50',
 };
 

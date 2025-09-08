@@ -108,8 +108,8 @@ export function getTemplateVariables(): Record<string, any> {
       city: 'Your City',
       state: 'Your State',
       postcode: '0000',
-      governingState: 'Your State',
-      governingCity: 'Your City',
+      governingState: 'Queensland',
+      governingCity: 'Brisbane',
       serviceRadius: '50',
       mainLocation: 'Your City, Your State 0000',
     };
@@ -142,8 +142,9 @@ export function getTemplateVariables(): Record<string, any> {
     formattedPhone: config.business.phone.replace(/\D/g, ''),
     fullAddress: `${config.address.street}, ${config.address.city} ${config.address.state} ${config.address.postcode}`,
     mainLocationFull: `${config.address.city}, ${config.address.state} ${config.address.postcode}`,
-    governingState: config.address.state,
-    governingCity: config.address.city,
+    // Legal jurisdiction is always Queensland (where Web and Glow Pty Ltd is registered)
+    governingState: 'Queensland',
+    governingCity: 'Brisbane',
     
     // Business hours
     hoursMonday: config.hours.monday,
