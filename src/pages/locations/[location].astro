@@ -52,8 +52,8 @@ const context = new LocationContext(locationData);
 const renderedSections = renderPageSections(activeSections, context);
 
 // Generate unique SEO content
-const seoTitle = context.processString("{Professional|Expert|Quality} Roof Cleaning in {{suburb}} {{state}} | {{businessName}}");
-const seoDescription = context.processString("{{businessName}} provides {professional|expert|trusted} {{mainServiceCategory}} services in {{suburb}}{{postcodeSpace}}. {Call us today|Contact us now|Get in touch} for a {free quote|no-obligation consultation}. Servicing {{suburb}} and {surrounding areas|nearby suburbs}.");
+const seoTitle = context.processString("Roof Cleaning {{suburb}} | {Professional|Expert|Trusted} Roof Cleaners {{state}}");
+const seoDescription = context.processString("{Professional|Expert|Trusted} roof cleaning in {{suburb}} {{state}}. Tile, metal & Colorbond roof washing, gutter cleaning, solar panel cleaning. Free quotes, fully insured. Call {{phone}} for {fast|same-day|24hr} service.");
 
 // Generate LocalBusiness schema for this location
 const localBusinessSchema = {
