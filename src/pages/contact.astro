@@ -14,8 +14,8 @@ const activeSections = contactData.data.sections
 
 // Create context for template processing
 const context = new TemplateContext({
-  phone: siteConfig.phoneDigitsOnly,
-  formattedPhone: siteConfig.formattedPhone,
+  phone: siteConfig.formattedPhone,
+  formattedPhone: siteConfig.phone,
   businessName: siteConfig.businessName,
   email: siteConfig.email,
   mainLocation: siteConfig.mainLocation,
