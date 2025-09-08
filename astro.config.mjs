@@ -14,7 +14,7 @@ const shortcodeValues = getTemplateVariables();
 // https://astro.build/config
 export default defineConfig({
   // Site URL is required for sitemap generation
-  site: 'https://adelaide-roof-cleaning-pros.netlify.app',
+  site: 'https://www.adelaideroofcleaning.com.au',
   integrations: [sitemap()],
   markdown: {
     remarkPlugins: [
