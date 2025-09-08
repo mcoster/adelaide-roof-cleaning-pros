@@ -15,6 +15,30 @@ interface TwoColumnAttributes {
 }
 
 /**
+ * Generate alt text from an image path
+ */
+function generateAltFromPath(imagePath: string): string {
+  if (!imagePath) return 'Section image';
+  
+  // Extract filename from path
+  const parts = imagePath.split('/');
+  const filename = parts[parts.length - 1];
+  
+  // Remove extension
+  const nameWithoutExt = filename.replace(/\.(jpg|jpeg|png|gif|webp|svg|avif)$/i, '');
+  
+  // Replace special characters with spaces and capitalize
+  const altText = nameWithoutExt
+    .replace(/[-_]/g, ' ')
+    .trim()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+  
+  return altText || 'Section image';
+}
+
+/**
  * Escape HTML special characters
  */
 function escapeHtml(text: string): string {
@@ -115,6 +139,7 @@ function parseAttributes(attrString: string): TwoColumnAttributes {
  */
 export function remarkTwoColumn(): Plugin<[], Root> {
   return function transformer(tree: Root): Root {
+    // Remove console logs and test with a simple change
     const newChildren: BlockContent[] = [];
     let i = 0;
     
@@ -170,7 +195,12 @@ export function remarkTwoColumn(): Plugin<[], Root> {
           if (foundClose) {
             // Create the two-column HTML
             let image = attrs.image || '/images/placeholder.jpg';
-            const imageAlt = attrs.imageAlt || '';
+            
+            // Generate alt text: use provided alt, or generate from path
+            const imageAlt = attrs.imageAlt && attrs.imageAlt.trim() 
+              ? attrs.imageAlt 
+              : generateAltFromPath(image);
+            
             const position = attrs.position || 'right';
             const variant = attrs.variant || '';
             
@@ -178,6 +208,9 @@ export function remarkTwoColumn(): Plugin<[], Root> {
             if (image && !image.includes('placeholder')) {
               image = getFallbackImage(image);
             }
+            
+            // URL encode the image path to handle spaces
+            const encodedImage = encodeURI(image);
             
             const variantClass = variant ? ` two-column--${variant}` : '';
             
@@ -190,7 +223,7 @@ export function remarkTwoColumn(): Plugin<[], Root> {
         ${contentHtml.join('\n')}
       </div>
       <div class="two-column__image-wrapper">
-        <img src="${image}" alt="${imageAlt}" class="two-column__image" loading="lazy" />
+        <img src="${encodedImage}" alt="${escapeHtml(imageAlt)}" class="two-column__image" loading="lazy" />
       </div>
     </div>
   </div>

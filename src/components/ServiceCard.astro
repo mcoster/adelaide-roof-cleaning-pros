@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { getAltText } from '@/lib/image-alt-generator';
 
 export interface Props {
   title: string;
@@ -27,6 +28,9 @@ if (image && image.startsWith('/images/')) {
 } else {
   serviceImage = image;
 }
+
+// Generate alt text from image path if not provided
+const altText = getAltText(undefined, image, title);
 ---
 
 <article class="service-card">
@@ -38,7 +42,7 @@ if (image && image.startsWith('/images/')) {
             {typeof serviceImage === 'object' ? (
               <Image
                 src={serviceImage}
-                alt={title}
+                alt={altText}
                 loading="lazy"
                 widths={[320, 640]}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -46,7 +50,7 @@ if (image && image.startsWith('/images/')) {
                 quality={80}
               />
             ) : (
-              <img src={image} alt={title} loading="lazy" />
+              <img src={image} alt={altText} loading="lazy" />
             )}
           </div>
         ) : icon ? (

@@ -1,4 +1,6 @@
 ---
+import { getAltText } from '@/lib/image-alt-generator';
+
 export interface Props {
   heading: string;
   text: string;
@@ -30,6 +32,9 @@ const {
   cta,
   class: className = '',
 } = Astro.props;
+
+// Generate alt text from image path if not provided
+const altText = getAltText(imageAlt, image, 'Section image');
 ---
 
 <section class={`two-column two-column--bg-${background} two-column--${variant} ${className}`.trim()}>
@@ -58,7 +63,7 @@ const {
       <div class="two-column__image-wrapper">
         <img 
           src={image} 
-          alt={imageAlt}
+          alt={altText}
           class="two-column__image"
           loading="lazy"
         />

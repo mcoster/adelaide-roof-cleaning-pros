@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets';
+import { getAltText } from '@/lib/image-alt-generator';
 import { siteConfig } from '@/config/site';
 
 export interface Props {
@@ -36,6 +37,9 @@ if (backgroundImage && backgroundImage.startsWith('/images/')) {
 } else {
   heroImage = backgroundImage;
 }
+
+// Generate alt text from image path if not provided
+const backgroundAltText = getAltText(undefined, backgroundImage, 'Hero background');
 ---
 
 <section class="hero-section relative overflow-hidden">
@@ -46,7 +50,7 @@ if (backgroundImage && backgroundImage.startsWith('/images/')) {
         {typeof heroImage === 'object' ? (
           <Image
             src={heroImage}
-            alt="Hero background"
+            alt={backgroundAltText}
             class="h-full w-full object-cover"
             loading="eager"
             widths={[640, 768, 1024, 1280, 1536]}
@@ -57,7 +61,7 @@ if (backgroundImage && backgroundImage.startsWith('/images/')) {
         ) : (
           <img
             src={backgroundImage}
-            alt="Hero background"
+            alt={backgroundAltText}
             class="h-full w-full object-cover"
             loading="eager"
             onerror="this.style.display='none'"

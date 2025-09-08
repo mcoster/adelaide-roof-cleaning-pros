@@ -2,10 +2,11 @@
 import { Image } from 'astro:assets';
 import { imageRegistry } from '@/lib/image-registry';
 import { generatePlaceholder } from '@/lib/image-placeholders';
+import { getAltText } from '@/lib/image-alt-generator';
 
 export interface Props {
   src?: string;
-  alt: string;
+  alt?: string;
   slotId?: string;
   width?: number;
   height?: number;
@@ -17,7 +18,7 @@ export interface Props {
 
 const {
   src,
-  alt,
+  alt: providedAlt,
   slotId,
   width,
   height,
@@ -68,6 +69,9 @@ if (matchedImage && matchedImage.startsWith('/images/')) {
     matchedImage = null;
   }
 }
+
+// Generate alt text from image path if not provided
+const alt = getAltText(providedAlt, matchedImage || src, 'Image');
 
 // Generate placeholder if needed
 if (!matchedImage) {

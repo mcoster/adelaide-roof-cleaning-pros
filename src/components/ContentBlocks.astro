@@ -1,5 +1,6 @@
 ---
 import { marked } from 'marked';
+import { getAltText } from '@/lib/image-alt-generator';
 
 export interface ContentBlock {
   heading?: string;
@@ -68,7 +69,7 @@ const processedBlocks = blocks.map((block, index) => {
               <div class="content-block__image-wrapper">
                 <img 
                   src={block.image} 
-                  alt={block.imageAlt || ''}
+                  alt={getAltText(block.imageAlt, block.image, 'Content image')}
                   class="content-block__image"
                   loading="lazy"
                 />
