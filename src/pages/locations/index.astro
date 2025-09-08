@@ -1,11 +1,11 @@
 ---
 import { buildLocationPages, groupLocationsAlphabetically } from '@/lib/location-builder';
 import { getCachedFooterLocations } from '@/lib/footer-locations';
-import Layout from '@/layouts/Layout.astro';
-import Header from '@/components/Header.astro';
-import Footer from '@/components/Footer.astro';
-import HeroWithForm from '@/components/HeroWithForm.astro';
-import CTABanner from '@/components/CTABanner.astro';
+import Layout from '@mcoster/astro-local-package/layouts/Layout.astro';
+import Header from '@mcoster/astro-local-package/components/Header.astro';
+import Footer from '@/components/FooterOptimized.astro';
+import HeroWithForm from '@mcoster/astro-local-package/components/HeroWithForm.astro';
+import CTABanner from '@mcoster/astro-local-package/components/CTABanner.astro';
 import { siteConfig } from '@/config/site';
 import { getEntry } from 'astro:content';
 
