@@ -3,7 +3,6 @@ title: "Solar Panel Cleaning"
 description: "Professional solar panel cleaning in Adelaide to maximize efficiency and energy output. Specialized equipment and techniques ensure safe, thorough cleaning that can increase power generation by up to 30%."
 excerpt: "Maximize solar efficiency with professional panel cleaning - improve output by up to 30%"
 image: "/images/solar panels getting cleaned by professional roof cleaning experts.jpg"
-icon: "☀️"
 order: 3
 featured: true
 seo:

@@ -3,7 +3,6 @@ title: "Tile Roof Cleaning"
 description: "Professional tile roof cleaning in Adelaide using soft washing techniques to safely remove moss, lichen, and years of built-up grime without damaging your tiles."
 excerpt: "Expert tile roof cleaning with soft washing to protect and restore your roof"
 image: "/images/red tiled roof getting washed by a professional cleaning contractor.jpg"
-icon: "🏠"
 order: 1
 featured: true
 seo:

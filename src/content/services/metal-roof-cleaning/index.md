@@ -3,7 +3,6 @@ title: "Metal & Colorbond Roof Cleaning"
 description: "Specialized metal and Colorbond roof cleaning in Adelaide. Safe cleaning methods that won't damage protective coatings while removing rust stains, moss, and environmental buildup."
 excerpt: "Professional metal and Colorbond roof cleaning to restore appearance and prevent corrosion"
 image: "/images/grey metal roof recently cleaned by roof cleaning experts.jpg"
-icon: "🏭"
 order: 2
 featured: true
 seo:

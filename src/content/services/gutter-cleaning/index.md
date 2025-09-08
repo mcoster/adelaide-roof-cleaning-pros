@@ -3,7 +3,6 @@ title: "Gutter Cleaning & Maintenance"
 description: "Professional gutter cleaning in Adelaide to prevent water damage and maintain proper drainage. Complete service including downpipe clearing, gutter guard installation, and minor repairs."
 excerpt: "Prevent water damage with professional gutter cleaning and maintenance services"
 image: "/images/gutters getting cleared and cleaned by professional roof cleaner.jpg"
-icon: "🏠"
 order: 4
 featured: true
 seo:

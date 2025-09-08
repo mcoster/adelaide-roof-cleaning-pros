@@ -99,9 +99,9 @@ const {
             <a 
               href={location.url} 
               class="hover:text-white transition-colors"
-              title={`${siteConfig.businessName} services in ${location.name}, ${location.state}`}
+              title={`${siteConfig.businessName} services in ${location.suburb.name}, ${location.suburb.state}`}
             >
-              {location.name}
+              {location.suburb.name}
             </a>
           ))}
         </div>
