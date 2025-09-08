@@ -2,7 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - 2025-09-07
+## [Unreleased] - 2025-09-08
+
+### SEO Improvements
+- **Title Tag Optimization**: All page titles now under Google's recommended 580px limit
+  - Removed automatic business name appending from Layout.astro
+  - Homepage: ~520px "Roof Cleaning Adelaide | Professional Soft Washing Services"
+  - About: ~459px "About Us | Expert Roof Cleaners Adelaide Since 2015"
+  - Contact: ~408px "Contact Us | Free Roof Cleaning Quote Adelaide"
+  - Services: ~408px "Roof Cleaning Services Adelaide | Tile & Metal"
+  - Location pages: ~425px average "Roof Cleaning [Suburb] SA | Expert Service"
+- **Meta Descriptions**: Added optimized meta descriptions to all pages
+- **Footer Fix**: Resolved duplicate Adelaide location links in footer via NPM package update
+
+### Technical Changes
+- Changed NPM package source to pull directly from GitHub (`github:mcoster/astro-local-package#main`)
+- Updated to @mcoster/astro-local-package v1.0.5
+- Improved footer location filtering to prevent duplicate main location
+
+## [Previous] - 2025-09-07
 
 ### Added
 - Main location redirect functionality - automatically redirects the main location (defined in `PUBLIC_MAIN_LOCATION`) to the homepage
