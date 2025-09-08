@@ -16,7 +16,7 @@ const {
   noindex = false,
 } = Astro.props;
 
-const pageTitle = title === siteConfig.businessName ? title : `${title} | ${siteConfig.businessName}`;
+const pageTitle = title || siteConfig.businessName;
 const canonicalURL = new URL(Astro.url.pathname, siteConfig.siteUrl);
 
 // Helper function to parse hours string

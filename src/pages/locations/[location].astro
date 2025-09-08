@@ -52,7 +52,7 @@ const context = new LocationContext(locationData);
 const renderedSections = renderPageSections(activeSections, context);
 
 // Generate unique SEO content
-const seoTitle = context.processString("Roof Cleaning {{suburb}} | {Professional|Expert|Trusted} Roof Cleaners {{state}}");
+const seoTitle = context.processString("Roof Cleaning {{suburb}} {{state}} | Expert Service");
 const seoDescription = context.processString("{Professional|Expert|Trusted} roof cleaning in {{suburb}} {{state}}. Tile, metal & Colorbond roof washing, gutter cleaning, solar panel cleaning. Free quotes, fully insured. Call {{phone}} for {fast|same-day|24hr} service.");
 
 // Generate LocalBusiness schema for this location
