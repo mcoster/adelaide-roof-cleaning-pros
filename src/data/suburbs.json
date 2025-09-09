@@ -1,11 +1,14 @@
 {
-  "generated": "2025-09-09T01:31:01.652Z",
+  "generated": "2025-09-09T02:33:21.411Z",
   "center": {
     "lat": -34.8517,
     "lng": 138.5829
   },
   "radiusKm": 33,
   "count": 440,
+  "state": "SA",
+  "configHash": "{\"radius\":33}",
+  "source": "database",
   "suburbs": [
     {
       "id": 11222,
