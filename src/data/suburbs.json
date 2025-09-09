@@ -1,11 +1,11 @@
 {
-  "generated": "2025-09-07T22:01:27.153Z",
+  "generated": "2025-09-09T01:31:01.652Z",
   "center": {
     "lat": -34.8517,
     "lng": 138.5829
   },
-  "radiusKm": 50,
-  "count": 511,
+  "radiusKm": 33,
+  "count": 440,
   "suburbs": [
     {
       "id": 11222,
@@ -96,17 +96,6 @@
       "population": null
     },
     {
-      "id": 11221,
-      "name": "Mansfield Park",
-      "postcode": "5012",
-      "state": "SA",
-      "latitude": -34.8565683,
-      "longitude": 138.5518395,
-      "distanceKm": 2.89,
-      "direction": "W",
-      "population": null
-    },
-    {
       "id": 11911,
       "name": "Clearview",
       "postcode": "5085",
@@ -115,6 +104,17 @@
       "longitude": 138.6137563,
       "distanceKm": 2.89,
       "direction": "E",
+      "population": null
+    },
+    {
+      "id": 11221,
+      "name": "Mansfield Park",
+      "postcode": "5012",
+      "state": "SA",
+      "latitude": -34.8565683,
+      "longitude": 138.5518395,
+      "distanceKm": 2.89,
+      "direction": "W",
       "population": null
     },
     {
@@ -272,17 +272,6 @@
       "population": null
     },
     {
-      "id": 11084,
-      "name": "Dry Creek",
-      "postcode": "5094",
-      "state": "SA",
-      "latitude": -34.8148068,
-      "longitude": 138.567052,
-      "distanceKm": 4.34,
-      "direction": "NW",
-      "population": null
-    },
-    {
       "id": 11163,
       "name": "Renown Park",
       "postcode": "5008",
@@ -302,6 +291,17 @@
       "longitude": 138.5357349,
       "distanceKm": 4.34,
       "direction": "W",
+      "population": null
+    },
+    {
+      "id": 11084,
+      "name": "Dry Creek",
+      "postcode": "5094",
+      "state": "SA",
+      "latitude": -34.8148068,
+      "longitude": 138.567052,
+      "distanceKm": 4.34,
+      "direction": "NW",
       "population": null
     },
     {
@@ -855,17 +855,6 @@
       "population": null
     },
     {
-      "id": 11978,
-      "name": "Windsor Gardens",
-      "postcode": "5087",
-      "state": "SA",
-      "latitude": -34.8655403,
-      "longitude": 138.6543408,
-      "distanceKm": 6.71,
-      "direction": "E",
-      "population": 22587
-    },
-    {
       "id": 12044,
       "name": "Queenstown",
       "postcode": "5014",
@@ -875,6 +864,17 @@
       "distanceKm": 6.71,
       "direction": "W",
       "population": null
+    },
+    {
+      "id": 11978,
+      "name": "Windsor Gardens",
+      "postcode": "5087",
+      "state": "SA",
+      "latitude": -34.8655403,
+      "longitude": 138.6543408,
+      "distanceKm": 6.71,
+      "direction": "E",
+      "population": 22587
     },
     {
       "id": 12159,
@@ -1317,17 +1317,6 @@
       "population": null
     },
     {
-      "id": 11089,
-      "name": "Kent Town",
-      "postcode": "5067",
-      "state": "SA",
-      "latitude": -34.9215545,
-      "longitude": 138.620129,
-      "distanceKm": 8.46,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11889,
       "name": "Glanville",
       "postcode": "5015",
@@ -1336,6 +1325,17 @@
       "longitude": 138.4908979,
       "distanceKm": 8.46,
       "direction": "W",
+      "population": null
+    },
+    {
+      "id": 11089,
+      "name": "Kent Town",
+      "postcode": "5067",
+      "state": "SA",
+      "latitude": -34.9215545,
+      "longitude": 138.620129,
+      "distanceKm": 8.46,
+      "direction": "SE",
       "population": null
     },
     {
@@ -1449,17 +1449,6 @@
       "population": null
     },
     {
-      "id": 11415,
-      "name": "Bolivar",
-      "postcode": "5110",
-      "state": "SA",
-      "latitude": -34.7715623,
-      "longitude": 138.5722034,
-      "distanceKm": 8.94,
-      "direction": "N",
-      "population": null
-    },
-    {
       "id": 11894,
       "name": "Norwood",
       "postcode": "5067",
@@ -1468,6 +1457,17 @@
       "longitude": 138.6320869,
       "distanceKm": 8.94,
       "direction": "SE",
+      "population": null
+    },
+    {
+      "id": 11415,
+      "name": "Bolivar",
+      "postcode": "5110",
+      "state": "SA",
+      "latitude": -34.7715623,
+      "longitude": 138.5722034,
+      "distanceKm": 8.94,
+      "direction": "N",
       "population": null
     },
     {
@@ -1559,6 +1559,17 @@
       "population": null
     },
     {
+      "id": 11173,
+      "name": "Grange",
+      "postcode": "5022",
+      "state": "SA",
+      "latitude": -34.8991361,
+      "longitude": 138.498079,
+      "distanceKm": 9.37,
+      "direction": "SW",
+      "population": null
+    },
+    {
       "id": 11888,
       "name": "Semaphore South",
       "postcode": "5019",
@@ -1576,17 +1587,6 @@
       "state": "SA",
       "latitude": -34.9301049,
       "longitude": 138.5447587,
-      "distanceKm": 9.37,
-      "direction": "SW",
-      "population": null
-    },
-    {
-      "id": 11173,
-      "name": "Grange",
-      "postcode": "5022",
-      "state": "SA",
-      "latitude": -34.8991361,
-      "longitude": 138.498079,
       "distanceKm": 9.37,
       "direction": "SW",
       "population": null
@@ -1614,17 +1614,6 @@
       "population": null
     },
     {
-      "id": 11137,
-      "name": "Lockleys",
-      "postcode": "5032",
-      "state": "SA",
-      "latitude": -34.9250195,
-      "longitude": 138.5309544,
-      "distanceKm": 9.42,
-      "direction": "SW",
-      "population": 13452
-    },
-    {
       "id": 11350,
       "name": "Salisbury South",
       "postcode": "5106",
@@ -1634,6 +1623,17 @@
       "distanceKm": 9.42,
       "direction": "NE",
       "population": null
+    },
+    {
+      "id": 11137,
+      "name": "Lockleys",
+      "postcode": "5032",
+      "state": "SA",
+      "latitude": -34.9250195,
+      "longitude": 138.5309544,
+      "distanceKm": 9.42,
+      "direction": "SW",
+      "population": 13452
     },
     {
       "id": 11136,
@@ -1702,17 +1702,6 @@
       "population": null
     },
     {
-      "id": 11994,
-      "name": "Rose Park",
-      "postcode": "5067",
-      "state": "SA",
-      "latitude": -34.9307114,
-      "longitude": 138.6282898,
-      "distanceKm": 9.7,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11912,
       "name": "Newton",
       "postcode": "5074",
@@ -1721,6 +1710,17 @@
       "longitude": 138.6824021,
       "distanceKm": 9.7,
       "direction": "E",
+      "population": null
+    },
+    {
+      "id": 11994,
+      "name": "Rose Park",
+      "postcode": "5067",
+      "state": "SA",
+      "latitude": -34.9307114,
+      "longitude": 138.6282898,
+      "distanceKm": 9.7,
+      "direction": "SE",
       "population": null
     },
     {
@@ -1768,23 +1768,23 @@
       "population": null
     },
     {
-      "id": 11880,
-      "name": "Osborne",
-      "postcode": "5017",
-      "state": "SA",
-      "latitude": -34.7859285,
-      "longitude": 138.5072887,
-      "distanceKm": 10.05,
-      "direction": "NW",
-      "population": null
-    },
-    {
       "id": 11318,
       "name": "Lipson Reach",
       "postcode": "5017",
       "state": "SA",
       "latitude": -34.7793206,
       "longitude": 138.5168609,
+      "distanceKm": 10.05,
+      "direction": "NW",
+      "population": null
+    },
+    {
+      "id": 11880,
+      "name": "Osborne",
+      "postcode": "5017",
+      "state": "SA",
+      "latitude": -34.7859285,
+      "longitude": 138.5072887,
       "distanceKm": 10.05,
       "direction": "NW",
       "population": null
@@ -1933,17 +1933,6 @@
       "population": null
     },
     {
-      "id": 12020,
-      "name": "Heathpool",
-      "postcode": "5068",
-      "state": "SA",
-      "latitude": -34.9314228,
-      "longitude": 138.6462942,
-      "distanceKm": 10.57,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11138,
       "name": "Marleston",
       "postcode": "5033",
@@ -1952,6 +1941,17 @@
       "longitude": 138.5616289,
       "distanceKm": 10.57,
       "direction": "S",
+      "population": null
+    },
+    {
+      "id": 12020,
+      "name": "Heathpool",
+      "postcode": "5068",
+      "state": "SA",
+      "latitude": -34.9314228,
+      "longitude": 138.6462942,
+      "distanceKm": 10.57,
+      "direction": "SE",
       "population": null
     },
     {
@@ -2098,17 +2098,6 @@
       "population": 14800
     },
     {
-      "id": 11178,
-      "name": "Glenside",
-      "postcode": "5065",
-      "state": "SA",
-      "latitude": -34.9427375,
-      "longitude": 138.6337521,
-      "distanceKm": 11.12,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11462,
       "name": "Salisbury",
       "postcode": "5108",
@@ -2120,14 +2109,14 @@
       "population": 18594
     },
     {
-      "id": 11066,
-      "name": "Kurralta Park",
-      "postcode": "5037",
+      "id": 11178,
+      "name": "Glenside",
+      "postcode": "5065",
       "state": "SA",
-      "latitude": -34.9514285,
-      "longitude": 138.5669815,
-      "distanceKm": 11.16,
-      "direction": "S",
+      "latitude": -34.9427375,
+      "longitude": 138.6337521,
+      "distanceKm": 11.12,
+      "direction": "SE",
       "population": null
     },
     {
@@ -2139,6 +2128,17 @@
       "longitude": 138.6871415,
       "distanceKm": 11.16,
       "direction": "NE",
+      "population": null
+    },
+    {
+      "id": 11066,
+      "name": "Kurralta Park",
+      "postcode": "5037",
+      "state": "SA",
+      "latitude": -34.9514285,
+      "longitude": 138.5669815,
+      "distanceKm": 11.16,
+      "direction": "S",
       "population": null
     },
     {
@@ -2186,17 +2186,6 @@
       "population": null
     },
     {
-      "id": 11447,
-      "name": "Athelstone",
-      "postcode": "5076",
-      "state": "SA",
-      "latitude": -34.8714792,
-      "longitude": 138.7054458,
-      "distanceKm": 11.42,
-      "direction": "E",
-      "population": 9601
-    },
-    {
       "id": 11454,
       "name": "Woodforde",
       "postcode": "5072",
@@ -2206,6 +2195,17 @@
       "distanceKm": 11.42,
       "direction": "SE",
       "population": null
+    },
+    {
+      "id": 11447,
+      "name": "Athelstone",
+      "postcode": "5076",
+      "state": "SA",
+      "latitude": -34.8714792,
+      "longitude": 138.7054458,
+      "distanceKm": 11.42,
+      "direction": "E",
+      "population": 9601
     },
     {
       "id": 11207,
@@ -2615,17 +2615,6 @@
       "population": null
     },
     {
-      "id": 11193,
-      "name": "Myrtle Bank",
-      "postcode": "5064",
-      "state": "SA",
-      "latitude": -34.9605623,
-      "longitude": 138.6337941,
-      "distanceKm": 12.94,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11467,
       "name": "Salisbury Park",
       "postcode": "5109",
@@ -2634,6 +2623,17 @@
       "longitude": 138.6682306,
       "distanceKm": 12.94,
       "direction": "NE",
+      "population": null
+    },
+    {
+      "id": 11193,
+      "name": "Myrtle Bank",
+      "postcode": "5064",
+      "state": "SA",
+      "latitude": -34.9605623,
+      "longitude": 138.6337941,
+      "distanceKm": 12.94,
+      "direction": "SE",
       "population": null
     },
     {
@@ -2703,23 +2703,23 @@
       "population": null
     },
     {
-      "id": 11265,
-      "name": "Teringie",
-      "postcode": "5072",
-      "state": "SA",
-      "latitude": -34.9149989,
-      "longitude": 138.7077959,
-      "distanceKm": 13.4,
-      "direction": "SE",
-      "population": null
-    },
-    {
       "id": 11194,
       "name": "Glen Osmond",
       "postcode": "5064",
       "state": "SA",
       "latitude": -34.9594803,
       "longitude": 138.6489781,
+      "distanceKm": 13.4,
+      "direction": "SE",
+      "population": null
+    },
+    {
+      "id": 11265,
+      "name": "Teringie",
+      "postcode": "5072",
+      "state": "SA",
+      "latitude": -34.9149989,
+      "longitude": 138.7077959,
       "distanceKm": 13.4,
       "direction": "SE",
       "population": null
@@ -2736,17 +2736,6 @@
       "population": null
     },
     {
-      "id": 11353,
-      "name": "Salisbury Heights",
-      "postcode": "5109",
-      "state": "SA",
-      "latitude": -34.762779,
-      "longitude": 138.6837193,
-      "distanceKm": 13.51,
-      "direction": "NE",
-      "population": null
-    },
-    {
       "id": 11904,
       "name": "Kingswood",
       "postcode": "5062",
@@ -2755,6 +2744,17 @@
       "longitude": 138.6138099,
       "distanceKm": 13.51,
       "direction": "S",
+      "population": null
+    },
+    {
+      "id": 11353,
+      "name": "Salisbury Heights",
+      "postcode": "5109",
+      "state": "SA",
+      "latitude": -34.762779,
+      "longitude": 138.6837193,
+      "distanceKm": 13.51,
+      "direction": "NE",
       "population": null
     },
     {
@@ -3165,6 +3165,17 @@
       "population": null
     },
     {
+      "id": 11947,
+      "name": "Glenelg",
+      "postcode": "5045",
+      "state": "SA",
+      "latitude": -34.9803673,
+      "longitude": 138.5143342,
+      "distanceKm": 15.59,
+      "direction": "SW",
+      "population": null
+    },
+    {
       "id": 11424,
       "name": "Waterloo Corner",
       "postcode": "5110",
@@ -3176,14 +3187,14 @@
       "population": null
     },
     {
-      "id": 11947,
-      "name": "Glenelg",
-      "postcode": "5045",
+      "id": 11161,
+      "name": "Glengowrie",
+      "postcode": "5044",
       "state": "SA",
-      "latitude": -34.9803673,
-      "longitude": 138.5143342,
-      "distanceKm": 15.59,
-      "direction": "SW",
+      "latitude": -34.9873641,
+      "longitude": 138.5335468,
+      "distanceKm": 15.71,
+      "direction": "S",
       "population": null
     },
     {
@@ -3196,17 +3207,6 @@
       "distanceKm": 15.71,
       "direction": "NE",
       "population": 10406
-    },
-    {
-      "id": 11161,
-      "name": "Glengowrie",
-      "postcode": "5044",
-      "state": "SA",
-      "latitude": -34.9873641,
-      "longitude": 138.5335468,
-      "distanceKm": 15.71,
-      "direction": "S",
-      "population": null
     },
     {
       "id": 11444,
@@ -3594,17 +3594,6 @@
       "population": null
     },
     {
-      "id": 11851,
-      "name": "Blackwood",
-      "postcode": "5051",
-      "state": "SA",
-      "latitude": -35.0223835,
-      "longitude": 138.6128068,
-      "distanceKm": 19.13,
-      "direction": "S",
-      "population": 12963
-    },
-    {
       "id": 11874,
       "name": "Eyre",
       "postcode": "5121",
@@ -3614,6 +3603,17 @@
       "distanceKm": 19.13,
       "direction": "NE",
       "population": null
+    },
+    {
+      "id": 11851,
+      "name": "Blackwood",
+      "postcode": "5051",
+      "state": "SA",
+      "latitude": -35.0223835,
+      "longitude": 138.6128068,
+      "distanceKm": 19.13,
+      "direction": "S",
+      "population": 12963
     },
     {
       "id": 11120,
@@ -3693,17 +3693,6 @@
       "population": null
     },
     {
-      "id": 11416,
-      "name": "Buckland Park",
-      "postcode": "5120",
-      "state": "SA",
-      "latitude": -34.6777748,
-      "longitude": 138.5387677,
-      "distanceKm": 19.71,
-      "direction": "N",
-      "population": null
-    },
-    {
       "id": 11375,
       "name": "Elizabeth Downs",
       "postcode": "5113",
@@ -3712,6 +3701,17 @@
       "longitude": 138.6935867,
       "distanceKm": 19.71,
       "direction": "NE",
+      "population": null
+    },
+    {
+      "id": 11416,
+      "name": "Buckland Park",
+      "postcode": "5120",
+      "state": "SA",
+      "latitude": -34.6777748,
+      "longitude": 138.5387677,
+      "distanceKm": 19.71,
+      "direction": "N",
       "population": null
     },
     {
@@ -4845,787 +4845,6 @@
       "longitude": 138.7411317,
       "distanceKm": 32.81,
       "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 12153,
-      "name": "Hay Valley",
-      "postcode": "5252",
-      "state": "SA",
-      "latitude": -35.005683,
-      "longitude": 138.8922485,
-      "distanceKm": 33.03,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11634,
-      "name": "Noarlunga Centre",
-      "postcode": "5168",
-      "state": "SA",
-      "latitude": -35.1412781,
-      "longitude": 138.4954718,
-      "distanceKm": 33.1,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11317,
-      "name": "Whispering Wall",
-      "postcode": "5351",
-      "state": "SA",
-      "latitude": -34.6456,
-      "longitude": 138.8483062,
-      "distanceKm": 33.37,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11862,
-      "name": "Jupiter Creek",
-      "postcode": "5153",
-      "state": "SA",
-      "latitude": -35.1180261,
-      "longitude": 138.7535369,
-      "distanceKm": 33.4,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11083,
-      "name": "Christies Beach",
-      "postcode": "5165",
-      "state": "SA",
-      "latitude": -35.1395801,
-      "longitude": 138.4697587,
-      "distanceKm": 33.57,
-      "direction": "S",
-      "population": 11050
-    },
-    {
-      "id": 11839,
-      "name": "Anembo Park",
-      "postcode": "5251",
-      "state": "SA",
-      "latitude": -35.0555181,
-      "longitude": 138.8553884,
-      "distanceKm": 33.63,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11092,
-      "name": "Noarlunga Downs",
-      "postcode": "5168",
-      "state": "SA",
-      "latitude": -35.1478279,
-      "longitude": 138.5019583,
-      "distanceKm": 33.67,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 12018,
-      "name": "Gawler Belt",
-      "postcode": "5118",
-      "state": "SA",
-      "latitude": -34.571978,
-      "longitude": 138.7287909,
-      "distanceKm": 33.79,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11909,
-      "name": "Cockatoo Valley",
-      "postcode": "5351",
-      "state": "SA",
-      "latitude": -34.6284805,
-      "longitude": 138.8343197,
-      "distanceKm": 33.81,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11147,
-      "name": "Littlehampton",
-      "postcode": "5250",
-      "state": "SA",
-      "latitude": -35.0482163,
-      "longitude": 138.8658568,
-      "distanceKm": 33.81,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11818,
-      "name": "Huntfield Heights",
-      "postcode": "5163",
-      "state": "SA",
-      "latitude": -35.1522659,
-      "longitude": 138.5123303,
-      "distanceKm": 33.96,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11502,
-      "name": "Echunga",
-      "postcode": "5153",
-      "state": "SA",
-      "latitude": -35.1035857,
-      "longitude": 138.7961057,
-      "distanceKm": 34.06,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11938,
-      "name": "Hewett",
-      "postcode": "5118",
-      "state": "SA",
-      "latitude": -34.5778217,
-      "longitude": 138.7523997,
-      "distanceKm": 34.12,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11966,
-      "name": "Kangarilla",
-      "postcode": "5157",
-      "state": "SA",
-      "latitude": -35.1525869,
-      "longitude": 138.6701524,
-      "distanceKm": 34.32,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11078,
-      "name": "Mount Barker",
-      "postcode": "5251",
-      "state": "SA",
-      "latitude": -35.0641302,
-      "longitude": 138.8586385,
-      "distanceKm": 34.49,
-      "direction": "SE",
-      "population": 22113
-    },
-    {
-      "id": 11394,
-      "name": "Williamstown",
-      "postcode": "5351",
-      "state": "SA",
-      "latitude": -34.6717242,
-      "longitude": 138.8905114,
-      "distanceKm": 34.52,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11471,
-      "name": "Mount Torrens",
-      "postcode": "5244",
-      "state": "SA",
-      "latitude": -34.873801,
-      "longitude": 138.9599686,
-      "distanceKm": 34.57,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11098,
-      "name": "Port Noarlunga",
-      "postcode": "5167",
-      "state": "SA",
-      "latitude": -35.1500622,
-      "longitude": 138.4698986,
-      "distanceKm": 34.67,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11446,
-      "name": "Reeves Plains",
-      "postcode": "5502",
-      "state": "SA",
-      "latitude": -34.539123,
-      "longitude": 138.609234,
-      "distanceKm": 34.76,
-      "direction": "N",
-      "population": null
-    },
-    {
-      "id": 11837,
-      "name": "Blakiston",
-      "postcode": "5250",
-      "state": "SA",
-      "latitude": -35.0416844,
-      "longitude": 138.8861078,
-      "distanceKm": 34.8,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 12161,
-      "name": "Onkaparinga Heights",
-      "postcode": "5163",
-      "state": "SA",
-      "latitude": -35.1623676,
-      "longitude": 138.5199837,
-      "distanceKm": 34.94,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11373,
-      "name": "Birdwood",
-      "postcode": "5234",
-      "state": "SA",
-      "latitude": -34.8187997,
-      "longitude": 138.9638545,
-      "distanceKm": 35.04,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11445,
-      "name": "Kangaroo Flat",
-      "postcode": "5118",
-      "state": "SA",
-      "latitude": -34.5489111,
-      "longitude": 138.6933084,
-      "distanceKm": 35.08,
-      "direction": "N",
-      "population": null
-    },
-    {
-      "id": 11395,
-      "name": "Sandy Creek",
-      "postcode": "5350",
-      "state": "SA",
-      "latitude": -34.6035943,
-      "longitude": 138.8260729,
-      "distanceKm": 35.41,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11948,
-      "name": "Concordia",
-      "postcode": "5118",
-      "state": "SA",
-      "latitude": -34.5793389,
-      "longitude": 138.7929359,
-      "distanceKm": 35.82,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11248,
-      "name": "Nairne",
-      "postcode": "5252",
-      "state": "SA",
-      "latitude": -35.0364036,
-      "longitude": 138.9095876,
-      "distanceKm": 36.2,
-      "direction": "SE",
-      "population": 5327
-    },
-    {
-      "id": 11099,
-      "name": "Port Noarlunga South",
-      "postcode": "5167",
-      "state": "SA",
-      "latitude": -35.1661841,
-      "longitude": 138.4686132,
-      "distanceKm": 36.42,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11840,
-      "name": "Alan Bell Park",
-      "postcode": "5250",
-      "state": "SA",
-      "latitude": -35.0653343,
-      "longitude": 138.8897931,
-      "distanceKm": 36.71,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 12103,
-      "name": "Seaford Meadows",
-      "postcode": "5169",
-      "state": "SA",
-      "latitude": -35.1747576,
-      "longitude": 138.4837013,
-      "distanceKm": 36.97,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11956,
-      "name": "Cromer",
-      "postcode": "5235",
-      "state": "SA",
-      "latitude": -34.7660562,
-      "longitude": 138.9765465,
-      "distanceKm": 37.25,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11094,
-      "name": "Old Noarlunga",
-      "postcode": "5168",
-      "state": "SA",
-      "latitude": -35.1827445,
-      "longitude": 138.4997013,
-      "distanceKm": 37.5,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11841,
-      "name": "Flaxley",
-      "postcode": "5153",
-      "state": "SA",
-      "latitude": -35.1385898,
-      "longitude": 138.8182211,
-      "distanceKm": 38.4,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11101,
-      "name": "Seaford",
-      "postcode": "5169",
-      "state": "SA",
-      "latitude": -35.1868004,
-      "longitude": 138.4770511,
-      "distanceKm": 38.41,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 12017,
-      "name": "Kingsford",
-      "postcode": "5118",
-      "state": "SA",
-      "latitude": -34.5482016,
-      "longitude": 138.7893739,
-      "distanceKm": 38.62,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11982,
-      "name": "Mount Crawford",
-      "postcode": "5351",
-      "state": "SA",
-      "latitude": -34.7187445,
-      "longitude": 138.9788639,
-      "distanceKm": 39.13,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11834,
-      "name": "Mount Barker Summit",
-      "postcode": "5251",
-      "state": "SA",
-      "latitude": -35.0692046,
-      "longitude": 138.9215505,
-      "distanceKm": 39.23,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11090,
-      "name": "Moana",
-      "postcode": "5169",
-      "state": "SA",
-      "latitude": -35.1974742,
-      "longitude": 138.4730721,
-      "distanceKm": 39.65,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11100,
-      "name": "Seaford Rise",
-      "postcode": "5169",
-      "state": "SA",
-      "latitude": -35.2009601,
-      "longitude": 138.4866672,
-      "distanceKm": 39.73,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 12011,
-      "name": "Green Hills Range",
-      "postcode": "5153",
-      "state": "SA",
-      "latitude": -35.1661475,
-      "longitude": 138.8011488,
-      "distanceKm": 40.17,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11833,
-      "name": "Mount Barker Springs",
-      "postcode": "5251",
-      "state": "SA",
-      "latitude": -35.0910535,
-      "longitude": 138.9197507,
-      "distanceKm": 40.64,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11249,
-      "name": "McLaren Vale",
-      "postcode": "5171",
-      "state": "SA",
-      "latitude": -35.2172617,
-      "longitude": 138.5416998,
-      "distanceKm": 40.73,
-      "direction": "S",
-      "population": 7344
-    },
-    {
-      "id": 11484,
-      "name": "Harrogate",
-      "postcode": "5244",
-      "state": "SA",
-      "latitude": -34.9503543,
-      "longitude": 139.0129599,
-      "distanceKm": 40.8,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 12061,
-      "name": "Seaside at Moana Estate",
-      "postcode": "5170",
-      "state": "SA",
-      "latitude": -35.2183462,
-      "longitude": 138.4733706,
-      "distanceKm": 41.89,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11357,
-      "name": "Ochre Point",
-      "postcode": "5170",
-      "state": "SA",
-      "latitude": -35.2187486,
-      "longitude": 138.468996,
-      "distanceKm": 42.03,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11941,
-      "name": "Pewsey Vale",
-      "postcode": "5351",
-      "state": "SA",
-      "latitude": -34.6368802,
-      "longitude": 138.9701628,
-      "distanceKm": 42.73,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11638,
-      "name": "Maslin Beach",
-      "postcode": "5170",
-      "state": "SA",
-      "latitude": -35.2287818,
-      "longitude": 138.477912,
-      "distanceKm": 42.92,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11820,
-      "name": "Nonedia",
-      "postcode": "5255",
-      "state": "SA",
-      "latitude": -35.1534419,
-      "longitude": 138.878624,
-      "distanceKm": 43,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11817,
-      "name": "Tatachilla",
-      "postcode": "5171",
-      "state": "SA",
-      "latitude": -35.2346342,
-      "longitude": 138.5093688,
-      "distanceKm": 43.01,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11397,
-      "name": "Mount Pleasant",
-      "postcode": "5235",
-      "state": "SA",
-      "latitude": -34.7755477,
-      "longitude": 139.0479358,
-      "distanceKm": 43.38,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11832,
-      "name": "Petwood",
-      "postcode": "5252",
-      "state": "SA",
-      "latitude": -35.0864138,
-      "longitude": 138.9654636,
-      "distanceKm": 43.57,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 12146,
-      "name": "Tungkillo",
-      "postcode": "5236",
-      "state": "SA",
-      "latitude": -34.8661753,
-      "longitude": 139.0648211,
-      "distanceKm": 44.1,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11298,
-      "name": "Blanche Point",
-      "postcode": "5173",
-      "state": "SA",
-      "latitude": -35.2460925,
-      "longitude": 138.4628392,
-      "distanceKm": 45.1,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11926,
-      "name": "Paris Creek",
-      "postcode": "5201",
-      "state": "SA",
-      "latitude": -35.2184871,
-      "longitude": 138.8002074,
-      "distanceKm": 45.27,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11916,
-      "name": "Gomersal",
-      "postcode": "5352",
-      "state": "SA",
-      "latitude": -34.534868,
-      "longitude": 138.8973945,
-      "distanceKm": 45.45,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11811,
-      "name": "Gemmells",
-      "postcode": "5255",
-      "state": "SA",
-      "latitude": -35.1785947,
-      "longitude": 138.8952101,
-      "distanceKm": 46.13,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11830,
-      "name": "St Ives",
-      "postcode": "5252",
-      "state": "SA",
-      "latitude": -35.110325,
-      "longitude": 138.9799261,
-      "distanceKm": 46.23,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 12043,
-      "name": "Port Willunga",
-      "postcode": "5173",
-      "state": "SA",
-      "latitude": -35.257101,
-      "longitude": 138.4644573,
-      "distanceKm": 46.26,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11402,
-      "name": "Mallala",
-      "postcode": "5502",
-      "state": "SA",
-      "latitude": -34.4376942,
-      "longitude": 138.5103239,
-      "distanceKm": 46.41,
-      "direction": "N",
-      "population": 3335
-    },
-    {
-      "id": 11250,
-      "name": "Willunga",
-      "postcode": "5172",
-      "state": "SA",
-      "latitude": -35.2711681,
-      "longitude": 138.5554231,
-      "distanceKm": 46.6,
-      "direction": "S",
-      "population": 3604
-    },
-    {
-      "id": 11646,
-      "name": "Aldinga",
-      "postcode": "5173",
-      "state": "SA",
-      "latitude": -35.2673234,
-      "longitude": 138.4831296,
-      "distanceKm": 47,
-      "direction": "S",
-      "population": 15923
-    },
-    {
-      "id": 11999,
-      "name": "Highland Valley",
-      "postcode": "5255",
-      "state": "SA",
-      "latitude": -35.1674938,
-      "longitude": 138.9299083,
-      "distanceKm": 47.23,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 11985,
-      "name": "Krondorf",
-      "postcode": "5352",
-      "state": "SA",
-      "latitude": -34.5658027,
-      "longitude": 138.970474,
-      "distanceKm": 47.61,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11664,
-      "name": "Magdala",
-      "postcode": "5400",
-      "state": "SA",
-      "latitude": -34.4232061,
-      "longitude": 138.6999364,
-      "distanceKm": 48.73,
-      "direction": "N",
-      "population": null
-    },
-    {
-      "id": 11507,
-      "name": "Aldinga Beach",
-      "postcode": "5173",
-      "state": "SA",
-      "latitude": -35.279293,
-      "longitude": 138.4604028,
-      "distanceKm": 48.74,
-      "direction": "S",
-      "population": null
-    },
-    {
-      "id": 11490,
-      "name": "Springton",
-      "postcode": "5235",
-      "state": "SA",
-      "latitude": -34.7070453,
-      "longitude": 139.0893592,
-      "distanceKm": 49.06,
-      "direction": "E",
-      "population": null
-    },
-    {
-      "id": 11399,
-      "name": "Freeling",
-      "postcode": "5372",
-      "state": "SA",
-      "latitude": -34.4523377,
-      "longitude": 138.8131911,
-      "distanceKm": 49.08,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11969,
-      "name": "Red Creek",
-      "postcode": "5255",
-      "state": "SA",
-      "latitude": -35.1492403,
-      "longitude": 138.9809132,
-      "distanceKm": 49.09,
-      "direction": "SE",
-      "population": null
-    },
-    {
-      "id": 12021,
-      "name": "Flaxman Valley",
-      "postcode": "5235",
-      "state": "SA",
-      "latitude": -34.619771,
-      "longitude": 139.0409732,
-      "distanceKm": 49.21,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 11426,
-      "name": "Dublin",
-      "postcode": "5501",
-      "state": "SA",
-      "latitude": -34.4513918,
-      "longitude": 138.3497395,
-      "distanceKm": 49.28,
-      "direction": "NW",
-      "population": null
-    },
-    {
-      "id": 11569,
-      "name": "Seppeltsfield",
-      "postcode": "5355",
-      "state": "SA",
-      "latitude": -34.495628,
-      "longitude": 138.9063794,
-      "distanceKm": 49.39,
-      "direction": "NE",
-      "population": null
-    },
-    {
-      "id": 12010,
-      "name": "Taunton",
-      "postcode": "5235",
-      "state": "SA",
-      "latitude": -34.6870685,
-      "longitude": 139.0896794,
-      "distanceKm": 49.86,
-      "direction": "E",
       "population": null
     }
   ]
