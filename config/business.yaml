@@ -87,7 +87,7 @@ google_maps:
 # FOOTER CONFIGURATION
 # =====================================================
 footer:
-  # Leave empty for auto-selection of featured suburbs
+  # List of suburbs to feature in the footer
   featured_suburbs:
     - North Adelaide
     - Glenelg
@@ -100,3 +100,14 @@ footer:
     - Brighton
     - Salisbury
     - Modbury
+
+  # Controls how suburbs are matched when multiple variations exist
+  # Options: "best_match" (single best match) or "all_variations" (all matching suburbs)
+  suburb_selection_mode: best_match
+
+  # Maximum number of suburbs to display in footer (optional)
+  # suburb_limit: 20
+
+  # Whether to automatically supplement with additional suburbs if featured list is small
+  # Set to false to show ONLY the featured suburbs specified above
+  auto_supplement: false
