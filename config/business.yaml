@@ -88,4 +88,15 @@ google_maps:
 # =====================================================
 footer:
   # Leave empty for auto-selection of featured suburbs
-  featured_suburbs: []
+  featured_suburbs:
+    - North Adelaide
+    - Glenelg
+    - Norwood
+    - Burnside
+    - Henley Beach
+    - Unley
+    - Prospect
+    - Mitcham
+    - Brighton
+    - Salisbury
+    - Modbury
